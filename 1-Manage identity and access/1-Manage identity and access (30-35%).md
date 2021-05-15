@@ -3,7 +3,7 @@
 [Return to Table of Contents](README.md)
 
 ## Manage Azure Active Directory identities
-* [Configure security for service principals](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/service-accounts-principal) | [Notes](1-Manage identity and access/11-Configure security for service principals.md)
+* [Configure security for service principals](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/service-accounts-principal) | [Notes](11-Configure security for service principals.md)
 * [Manage Azure AD Directory Groups](https://docs.microsoft.com/en-us/microsoft-365/enterprise/identity-use-group-management)
 * [Manage Azure AD Users](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/)
 * [Manage administrative units]()
