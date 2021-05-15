@@ -1,5 +1,7 @@
 # AZ-500: Manage identity and access (30-35%)
 
+[Return to Table of Contents](README.md)
+
 ## Manage Azure Active Directory identities
 * [Configure security for service principals]()
 * [Manage Azure AD Directory Groups](https://docs.microsoft.com/en-us/microsoft-365/enterprise/identity-use-group-management)
