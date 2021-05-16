@@ -10,3 +10,5 @@
 * Security Group: Manages access to shared resources. A security group can have users, devices, groups and service principals as its members.
 * Microsoft 365/ Active Directory Domain Services (ADDS) group: Gives members access to a shared mailbox, calendar, files, SharePoint site, and more
 
+[Return to Manage identity and access](README.md)
+[Return to Table of Contents](../README.md)

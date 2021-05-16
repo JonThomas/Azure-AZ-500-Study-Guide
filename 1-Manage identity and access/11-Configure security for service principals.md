@@ -20,4 +20,5 @@ List all service principal:
     Get-AzureADServicePrincipal
 (There are about 20 service principals in my pretty empty tenant)
 
+[Return to Manage identity and access](README.md)
 [Return to Table of Contents](../README.md)
