@@ -4,7 +4,7 @@
 
 ## Manage Azure Active Directory identities
 * [Configure security for service principals](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/service-accounts-principal) | [My notes](11-Configure%20security%20for%20service%20principals.md)
-* [Manage Azure AD Directory Groups](https://docs.microsoft.com/en-us/microsoft-365/enterprise/identity-use-group-management) | [My notes](12-Manage Azure%20AD%20directory%20groups.md)
+* [Manage Azure AD Directory Groups](https://docs.microsoft.com/en-us/microsoft-365/enterprise/manage-microsoft-365-groups) | [My notes](12-Manage%20Azure%20AD%20directory%20groups.md)
 * [Manage Azure AD Users](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/)
 * [Manage administrative units]()
 * [Configure password writeback]()
