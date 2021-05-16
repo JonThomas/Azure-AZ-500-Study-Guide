@@ -2,7 +2,7 @@
 
 ## General
 * A service principal functions as the identity for an application instance, including who can access it and which resources the application can access. Sort of like a Windows Service Account.
-> Service principals is an AD concept, so the application has to be registered with AD. See [Manage application access](1-Manage%20identity%20and%20access%20(30-35%25).md)
+> Service principals is an AD concept, so the application has to be registered with AD. See [Manage application access](README.md)
 * A service principal is created in each tenant where the application is used (so one application can have multiple service principals) In other words: The service principal references the Object Id of the application, not the globally unique Application Id.
 
 ## Service Principal security
@@ -12,10 +12,12 @@
 * Apply least privileges principle when assigning roles to Service Principals
 ** The default Azure RBAC role is Contributor, which can create and manage any resource, but cannot grant access to others. See [Built in role Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#contributor)
 * Monitor Service Principal signins
-* Monitor and react to concents to multi-tenant apps. See [Manage application access](1-Manage%20identity%20and%20access%20(30-35%25).md)
+* Monitor and react to concents to multi-tenant apps. See [Manage application access](README.md)
 > TODO: What is the relation between RBAC and Service Principal
 
 List all service principal:
     Connect-AzureAD -TenantId xyz
     Get-AzureADServicePrincipal
 (There are about 20 service principals in my pretty empty tenant)
+
+[Return to Table of Contents](../README.md)

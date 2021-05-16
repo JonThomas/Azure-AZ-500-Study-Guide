@@ -1,6 +1,6 @@
 # AZ-500: Manage identity and access (30-35%)
 
-[Return to Table of Contents](README.md)
+[Return to Table of Contents](../README.md)
 
 ## Manage Azure Active Directory identities
 * [Configure security for service principals](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/service-accounts-principal) | [My notes](11-Configure%20security%20for%20service%20principals.md)
@@ -34,7 +34,7 @@
 * [Interpret permissions]()
 ** [Check access]()
 
-[Return to Table of Contents](README.md)
+[Return to Table of Contents](../README.md)
 
 
 TODO
