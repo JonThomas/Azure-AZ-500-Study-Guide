@@ -10,5 +10,9 @@
 * Security Group: Manages access to shared resources. A security group can have users, devices, groups and service principals as its members.
 * Microsoft 365/ Active Directory Domain Services (ADDS) group: Gives members access to a shared mailbox, calendar, files, SharePoint site, and more
 
+> Azure AD is primarily an Identity solution based on Graph API. There are no Organizational Units (OUs) or Group Policy Objects (GPOs)???
+> ADDS (whether on prem or in the cloud) is an LDAP server that provides additional services, for example group policies, authentication, and trust features 
+> https://www.apps4rent.com/blog/active-directory-domain-services-vs-azure-active-directory/
+
 [Return to Manage identity and access](README.md)
 [Return to Table of Contents](../README.md)
