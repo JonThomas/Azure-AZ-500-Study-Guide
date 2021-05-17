@@ -15,4 +15,5 @@
 > https://www.apps4rent.com/blog/active-directory-domain-services-vs-azure-active-directory/
 
 [Return to Manage identity and access](README.md)
+
 [Return to Table of Contents](../README.md)
