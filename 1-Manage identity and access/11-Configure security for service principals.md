@@ -10,9 +10,9 @@
 * If using client secrets: Store them in Azure Key Vault
 * Prefer Service Principals and Managed Identities over Azure user accounts. (Managed Identities is now prefered over Service Principals)
 * Apply least privileges principle when assigning roles to Service Principals
-** The default Azure RBAC role is Contributor, which can create and manage any resource, but cannot grant access to others. See [Built in role Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#contributor)
+ * The default Azure RBAC role is Contributor, which can create and manage any resource, but cannot grant access to others. See [Built in role Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#contributor)
 * Monitor Service Principal signins
-* Monitor and react to concents to multi-tenant apps. See [Manage application access](README.md)
+* Monitor and react to consents to multi-tenant apps. See [Manage application access](README.md)
 > TODO: What is the relation between RBAC and Service Principal
 
 List all service principal:

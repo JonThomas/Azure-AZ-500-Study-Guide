@@ -9,7 +9,7 @@
 * [Manage administrative units](https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units) | [My notes](14-Manage%20administrative%20units.md)
 * [Configure password writeback](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-writeback) | [My notes](15-Configure%20password%20writeback.md)
 * [Configure authentication methods including password hash and Pass Through Authentication (PTA), OAuth and passwordless](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods) | [My notes](16-Configure%20authentication%20methods%20including%20password%20hash%20and%20Pass%20Through%20Authentication%20(PTA),%20OAuth,%20and%20passwordless.md)
-* [Transfer Azure Subscriptions between Azure AD tenants](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/billing-subscription-transfer)
+* [Transfer Azure Subscriptions between Azure AD tenants](https://docs.microsoft.com/en-us/azure/role-based-access-control/transfer-subscription) | [My notes](17-Transfer%20Azure%20subscriptions%20between%20Azure%20AD%20tenants.md)
 
 ## Configure secure access by using Azure AD
 
@@ -30,9 +30,9 @@
 * [Configure resource gropup permissions]()
 * [Configure RBAC roles]()
 * [Identify the appropriate role]()
-** [Apply principle of least privilege]()
+ * [Apply principle of least privilege]()
 * [Interpret permissions]()
-** [Check access]()
+ * [Check access]()
 
 [Return to Table of Contents](../README.md)
 
