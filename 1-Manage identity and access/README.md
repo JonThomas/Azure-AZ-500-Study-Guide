@@ -30,9 +30,9 @@
 * [Configure resource gropup permissions]()
 * [Configure RBAC roles]()
 * [Identify the appropriate role]()
- * [Apply principle of least privilege]()
+   * [Apply principle of least privilege]()
 * [Interpret permissions]()
- * [Check access]()
+   * [Check access]()
 
 [Return to Table of Contents](../README.md)
 
