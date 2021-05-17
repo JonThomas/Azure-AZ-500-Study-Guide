@@ -8,7 +8,7 @@
 * [Manage Azure AD Users](https://docs.microsoft.com/en-us/microsoft-365/enterprise/manage-microsoft-365-accounts) | [My notes](13-Manage%20Azure%20AD%20users.md)
 * [Manage administrative units](https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units) | [My notes](14-Manage%20administrative%20units.md)
 * [Configure password writeback](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-writeback) | [My notes](15-Configure%20password%20writeback.md)
-* [Configure authentication methods including password hash and Pass Through Authentication (PTA), OAuth and passwordless](https://docs.microsoft.com/en-us/azure/security/fundamentals/choose-ad-authn)
+* [Configure authentication methods including password hash and Pass Through Authentication (PTA), OAuth and passwordless](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods) | [My notes](16-Configure%20authentication%20methods%20including%20password%20hash%20and%20Pass%20Through%20Authentication%20(PTA),%20OAuth,%20and%20passwordless.md)
 * [Transfer Azure Subscriptions between Azure AD tenants](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/billing-subscription-transfer)
 
 ## Configure secure access by using Azure AD
