@@ -13,7 +13,7 @@
 [Password hash synchronization](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-phs)
 * Passwords are maintained in on-site AD, and a password hash is synchronized to Azure to enable sign in to Azure with on-site domain credentials
 * Enables Leaked credential detection: User account will be tag'ed as "High risk" account if the username and password is found in a breach
-
+> Is Leaked credentials only available with Password hash synchronization?? What about native Azure AD? 
 
 [Return to Manage identity and access](README.md)
 
