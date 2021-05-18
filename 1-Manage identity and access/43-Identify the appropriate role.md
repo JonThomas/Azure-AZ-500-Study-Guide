@@ -14,7 +14,7 @@
 * Billing administrator
 * ... and many more
 
-## Azure resource roles
+## Azure roles, aka Azure resource roles
 * User Access Administrator
 
 
