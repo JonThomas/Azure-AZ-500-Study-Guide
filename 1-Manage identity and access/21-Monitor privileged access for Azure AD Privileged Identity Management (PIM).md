@@ -10,7 +10,7 @@
    * Account Administrator
    * Service Administrator
    * Co-administrator
-* PIM enables [creating access reviews](22-Configure%20Access%20Reviews.md) for privileged Azure AD roles
+* PIM enables [creating access reviews](22-Configure%20Access%20Reviews.md) for Azure AD roles and Azure RBAC roles (??)
 
 
 ## Pricing

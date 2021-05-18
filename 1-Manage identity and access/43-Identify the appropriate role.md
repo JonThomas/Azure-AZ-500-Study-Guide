@@ -1,5 +1,7 @@
 # Identify the appropriate role
 
+## Classic subscription roles
+
 ## Azure AD roles
 
 [Azure AD roles reference](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
@@ -12,7 +14,8 @@
 * Billing administrator
 * ... and many more
 
-
+## Azure resource roles
+* User Access Administrator
 
 
 [Return to Manage identity and access](README.md)
