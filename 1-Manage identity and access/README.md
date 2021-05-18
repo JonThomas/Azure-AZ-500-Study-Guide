@@ -16,7 +16,7 @@
 * [Monitor privileged access for Azure AD Privileged Identity Management (PIM)](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-deployment-plan) | [My notes](21-Monitor%20privileged%20access%20for%20Azure%20AD%20Privileged%20Identity%20Management%20(PIM).md)
 * [Configure Access Reviews](https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) | [My notes](22-Configure%20Access%20Reviews.md)
 * [Configure PIM](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-getting-started) | [My notes](23-Configure%20PIM.md)
-* [Implement Conditional Access Policies including Multi-Factor Authentication](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/best-practices)
+* [Implement Conditional Access Policies including Multi-Factor Authentication](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/best-practices) | [My notes](24-Implement%20Conditional%20Access%20Policies%20including%20Multi-Factor%20Authentication.md)
 * [Configure Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/)
 
 ## Manage application access
