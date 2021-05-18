@@ -6,6 +6,7 @@
 
 * Global administrator
    * Only one who can set up [password writeback](15-Configure%20password%20writeback.md)
+* Privileged role administrator
 * User administrator
 * Application developer
 * Billing administrator
