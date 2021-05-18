@@ -4,10 +4,15 @@ Keyword: RISK!
 
 * Automate risk detection
    * "Users at risk"-email  
-* Identity Proection - a dashboard in Azure that displays trends of new risky users and risky sign-ins
-* Tiles can be added to the dashboard to display
-   * Legacy authentication
-   * Identity secure score
+* Investigate risks using the Identity protection dashboard in Azure that displays trends of new risky users and risky sign-ins
+   * Tiles can be added to the dashboard to display for example Legacy authentication or Identity secure score
+* Export risk data for further analysis
+* Risk types that can be detected:
+   * Anonymous or malware linked IP addresses
+   * Atypical travel
+   * Leaked credentials
+   * ...
+* Three risk levels: low, medium, and high.
 
 ## Security tips
 * Make users sign up for [Self Service Password Reset (SSPR)](13-Manage%20Azure%20AD%20users.md) and MFA.
