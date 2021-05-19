@@ -21,7 +21,7 @@
 
 ## Manage application access
 * [Create App registration](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
-* [Configure App registration permission scopes](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent) | [v1.0](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-permissions-and-consent)
+* [Configure App registration permission scopes](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent)
 * [Manage App registration permission consent](https://docs.microsoft.com/en-us/azure/active-directory/develop/consent-framework)
 * [Manage API access to Azure subscriptions and resources](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad) | [Authentication flows and application scenarios](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios) | [Azure Active Directory Graph API](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-graph-api)
 

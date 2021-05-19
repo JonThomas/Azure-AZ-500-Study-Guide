@@ -1,6 +1,6 @@
 # Configure Access Reviews
 
-* An access review is performed to make sure no one is a member of a group the shouldn't be in
+* An access review is performed to make sure no one is a member of a group they shouldn't be in
 * Can also configure self reviews: Users will be asked to review their own access
 * Access reviews are manual so prefer automatation, for example [dynamic membership](12-Manage%20Azure%20AD%20directory%20groups.md)
 * Recurring reviews can be set up, and reviewers will be notified.

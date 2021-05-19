@@ -9,6 +9,7 @@
 * Global administrator
    * Only one who can set up [password writeback](15-Configure%20password%20writeback.md)
 * Privileged role administrator
+   * Can set up [Administrative units](14-Manage%20administrative%20units.md)
 * User administrator
 * Application developer
 * Billing administrator

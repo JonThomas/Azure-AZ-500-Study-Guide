@@ -16,8 +16,10 @@
 > TODO: What is the relation between RBAC and Service Principal
 
 List all service principal:
+
     Connect-AzureAD -TenantId xyz
     Get-AzureADServicePrincipal
+
 (There are about 20 service principals in my pretty empty tenant)
 
 [Return to Manage identity and access](README.md)

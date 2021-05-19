@@ -1,7 +1,7 @@
 # Implement Conditional Access Policies including Multi-Factor Authentication
 
 Conditional access policies:
-* Using location, network location (IP), group membership, application, devices and real time risk detection ...
+* Using location, network location (IP), group membership, application, devices and real time risk detection ... ("signals")
 * ... to block or allow users, require MFA, require compliant device, force password change or require terms of use
 
 * Conditional access polices are enforced after first factor authentication

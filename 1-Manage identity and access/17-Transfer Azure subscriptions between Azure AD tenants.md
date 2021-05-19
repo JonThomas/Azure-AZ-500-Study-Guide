@@ -23,8 +23,8 @@
    * Role assigmnents must be reassigned to the new resources
    * Custom roles are deleted
 * Requires downtime
-* Key vault must be reconfigured
-* Encrypted data at rest might be unrecoverable if key is tied to subscription
+* Any key vaults must be reconfigured in the new tenant
+* Encrypted data at rest might be unrecoverable if encryption key is tied to subscription
 
 
 
