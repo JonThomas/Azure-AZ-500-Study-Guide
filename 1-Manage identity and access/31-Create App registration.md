@@ -2,6 +2,7 @@
 
 * Register apps to enable authentication and authorization using Azure / Microsoft logins.
 * Register the app under Active Directory -> New registration
+* A [service principal](11-Configure%20security%20for%20service%20principals.md) is automatically created, so that the application can access resources secured by Azure AD: [Application and service principal objects in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals)
 
 ## High level registration process for a web application
 
