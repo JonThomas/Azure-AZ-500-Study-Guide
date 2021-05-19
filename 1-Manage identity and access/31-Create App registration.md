@@ -5,10 +5,11 @@
 
 ## High level registration process for a web application
 
-1. Add a Display Name for your app
-2. Add users (sign-in audience)
-3. Enable the app, so that end users can see it: Enterprise Applications -> app -> Properties -> Visible to Users -> Yes
-4. Add the Redirect URI to the application under Platform Settings in the Azure portal, so that the Identity Platform knows where to redirect unauthenticated users
+1. Active Directory -> New registration
+2. Add a Display Name for your app
+3. Add users (sign-in audience)
+4. Enable the app, so that end users can see it: Enterprise Applications -> app -> Properties -> Visible to Users -> Yes
+5. Add the Redirect URI to the application under Platform Settings in the Azure portal, so that the Identity Platform knows where to redirect unauthenticated users
 
 ## Confidential applications
 

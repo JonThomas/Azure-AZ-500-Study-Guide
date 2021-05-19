@@ -20,12 +20,14 @@
 * [Configure Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/) | [My notes](25-Configure%20Azure%20AD%20Identity%20Protection.md)
 
 ## Manage application access
+
 * [Create App registration](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) | [My notes](31-Create%20App%20registration.md)
-* [Configure App registration permission scopes](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent)
+* [Configure App registration permission scopes](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent) | [My notes](32-Configure%20App%20registration%20permission%20scopes.md)
 * [Manage App registration permission consent](https://docs.microsoft.com/en-us/azure/active-directory/develop/consent-framework)
 * [Manage API access to Azure subscriptions and resources](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad) | [Authentication flows and application scenarios](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios) | [Azure Active Directory Graph API](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-graph-api)
 
 ## Manage access control
+
 * [Configure subscription and resource permissions]()
 * [Configure resource gropup permissions]()
 * [Configure RBAC roles]()

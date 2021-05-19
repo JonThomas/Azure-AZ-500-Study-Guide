@@ -1,5 +1,24 @@
 # Configure App registration permission scopes
 
+* Permission scope = Permission sets = the set of permissions that an app requests/ needs/ offers, for example to access files, a persons calendar or the Azure key vault
+* Azure Identity Platform supports several well defined [OpenId Connect scopes](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#openid-connect-scopes) and resource-based permissions.
+* An app can request permission from users or administrators, who can grant them access.
+   * The request is normally performed by appending the permission to the application Id URI, for example https://graph.microsoft.com/Calendars.Read
+   * Some high privilege permissions can only be requested using an [administrator consent endpoint](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#admin-restricted-permissions)
+      * Read all user's full profiles by using User.Read.All
+      * Write data to an organization's directory by using Directory.ReadWrite.All
+* Delegated permissions vs Application permissions
+   * Application permissions: For background services without signed-in user. Permission can only be granted by an administrator.
+      * Effective permissions are the permissions granted
+   * Delegated persmissions: For apps running in a user context.
+      * Effective permissions are the least common denominator of the curent signed in users permissions and the apps permissions
+* An application can request permissions by sending a GET request to the login provider, including the requested permissions as space separated list:
+   * If the user hasn't already been granted these permissions, the Identity Platform asks the user to grant these permissions
+
+    &scope=
+	https%3A%2F%2Fgraph.microsoft.com%2Fcalendars.read%20
+	https%3A%2F%2Fgraph.microsoft.com%2Fmail.send
+
 
 [Return to Manage identity and access](README.md)
 
