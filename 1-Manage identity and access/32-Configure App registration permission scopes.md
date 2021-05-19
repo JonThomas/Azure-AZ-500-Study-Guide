@@ -5,6 +5,7 @@
 * An app can request permission from users or administrators, who can grant them access.
    * The request is normally performed by appending the permission to the application Id URI, for example https://graph.microsoft.com/Calendars.Read
    * Some high privilege permissions can only be requested using an [administrator consent endpoint](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#admin-restricted-permissions)
+      * For example:
       * Read all user's full profiles by using User.Read.All
       * Write data to an organization's directory by using Directory.ReadWrite.All
 * Delegated permissions vs Application permissions
