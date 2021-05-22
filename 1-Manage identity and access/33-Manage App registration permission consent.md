@@ -1,6 +1,7 @@
 # Manage App registration permission consent
 
-## Consent workflow (Delegated permissions)
+## Delegated permissions workflow
+[Delegated permissions](https://github.com/JonThomas/Azure-AZ-500-Study-Guide/blob/master/1-Manage%20identity%20and%20access/32-Configure%20App%20registration%20permission%20scopes.md#delegated-permissions-vs-application-permissions)
 
 1. Declare the set of delegated permissions the application needs, using the Azure portal
 1. App must obtain a unique authorization code, using the */authorize* endpoint
