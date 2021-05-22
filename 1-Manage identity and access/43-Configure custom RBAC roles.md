@@ -6,7 +6,7 @@
 * A role consists of **Actions**, **NotActions**, **DataActions** and **NotDataActions**. These operations dictate what the role can and can't do.
 * The operations are described using the following format: 
    * {Company}.{ProviderName}/{resourceType}/{action}.
-   * * = All actions
+   * The wildcard '*' means All actions
    * Action Example: Microsoft.Authorization/*/Delete
    * Data Action example: Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete (Delete blob data)
 * Role scope
