@@ -8,17 +8,23 @@
       * For example:
       * Read all user's full profiles by using User.Read.All
       * Write data to an organization's directory by using Directory.ReadWrite.All
-* Delegated permissions vs Application permissions
-   * Application permissions: For background services without signed-in user. Permission can only be granted by an administrator.
-      * Effective permissions are the permissions granted
-   * Delegated persmissions: For apps running in a user context.
-      * Effective permissions are the least common denominator of the curent signed in users permissions and the apps permissions
 * An application can request permissions by sending a GET request to the login provider, including the requested permissions as space separated list:
    * If the user hasn't already been granted these permissions, the Identity Platform asks the user to grant these permissions
 
     &scope=
 	https%3A%2F%2Fgraph.microsoft.com%2Fcalendars.read%20
 	https%3A%2F%2Fgraph.microsoft.com%2Fmail.send
+
+## Delegated permissions vs Application permissions
+
+* Application permissions: For background services without signed-in user. 
+   * Permission can only be granted by an administrator.
+   * Permissions are granted when setting up the application
+   * *Effective permissions* are the permissions granted
+* Delegated persmissions: For apps running in a user context.
+   * Example: User must consent to let the app access the users calendar in Azure
+   * Permision is granted when user logs in
+   * *Effective permissions* are the least common denominator of the curent signed in users permissions and the apps permissions
 
 
 [Return to Manage identity and access](README.md)
