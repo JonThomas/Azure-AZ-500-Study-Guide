@@ -5,14 +5,15 @@
 ## Permission to management groups
 
 [Management groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
-* A "container" for above subscriptions for organizing permissions
-* Lets you manage permissions across any number of subscriptions
+* A management group is a "container" above subscriptions for organizing permissions
+* It lets you manage permissions across any number of subscriptions
 * All management groups are within a single tenant.
 * There is a single root management group within the tenant, with display name "Tenant root group"  
 * Settings at the root management group, such as Azure custom roles or Azure Policy policy assignments, affects all resources in the tenant.
 * Any user, by default, can create new management groups within a tenant [Reference](https://docs.microsoft.com/en-us/azure/governance/management-groups/how-to/protect-resource-hierarchy#setting---require-authorization)
 
 ![Management groups](img/ManagementGroups.png)
+Figure: Example showing relationship between management groups and subscriptions
 
 ## Permission to subscriptions
 
@@ -27,7 +28,7 @@ Example: [Add an other subscription administrator](https://docs.microsoft.com/en
 1. Save
 
 ## Permission to administrative units
-See [Manage administrative units]](14-Manage%20administrative%20units.md)
+See [Manage administrative units](14-Manage%20administrative%20units.md)
 
 ## Permission to resources (via a resource groups)
 
