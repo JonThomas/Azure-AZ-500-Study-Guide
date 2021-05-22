@@ -8,7 +8,6 @@
 
 * Users can be added by selecting the user in AD -> Administrative Units -> Add to Administrative Unit
 * Users can be added by selecting the administrative unit in AD -> All users -> Add member
-
 * Groups can be added by selecting the group in AD -> Administrative Units -> Add to Administrative Unit
 * Groups can be added by selecting the administrative unit in AD -> All groups -> Add member
 
