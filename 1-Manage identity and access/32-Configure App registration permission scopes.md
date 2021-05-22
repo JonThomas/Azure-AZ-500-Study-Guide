@@ -11,9 +11,9 @@
 * An application can request permissions by sending a GET request to the login provider, including the requested permissions as space separated list:
    * If the user hasn't already been granted these permissions, the Identity Platform asks the user to grant these permissions
 
-    &scope=
-	https%3A%2F%2Fgraph.microsoft.com%2Fcalendars.read%20
-	https%3A%2F%2Fgraph.microsoft.com%2Fmail.send
+        &scope=
+        https%3A%2F%2Fgraph.microsoft.com%2Fcalendars.read%20
+        https%3A%2F%2Fgraph.microsoft.com%2Fmail.send
 
 ## Delegated permissions vs Application permissions
 

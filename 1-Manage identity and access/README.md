@@ -28,10 +28,10 @@
 
 ## Manage access control
 
-* [Configure subscription and resource permissions]()
-* [Configure resource gropup permissions]()
-* [Configure RBAC roles]()
-* [Identify the appropriate role]()
+* [Configure subscription and resource permissions](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator)
+* [Configure resource gropup permissions](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator)
+* [Configure custom RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
+* [Identify the appropriate role](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
    * [Apply principle of least privilege]()
 * [Interpret permissions]()
    * [Check access]()
