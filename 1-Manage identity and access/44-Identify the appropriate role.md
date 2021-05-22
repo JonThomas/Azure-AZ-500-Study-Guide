@@ -5,6 +5,7 @@
 ## Azure AD roles
 
 [Azure AD roles reference](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
+[Azure RBAC roles reference](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
 
 * Role: A collection of actions that the assigned identity can perform. Action examples: "Create disk". "Scale DB".
 * A role answers the question: "**What** can be done"

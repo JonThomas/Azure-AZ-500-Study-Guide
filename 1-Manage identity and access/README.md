@@ -30,7 +30,7 @@
 
 * [Configure subscription and resource permissions](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator) | [My notes](41-Configure%20subscription%20and%20resource%20permissions.md)
 * [Configure resource group permissions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) | [My notes](42-Configure%20resource%20group%20permissions.md)
-* [Configure custom RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
+* [Configure custom RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles) | [My notes](43-Configure custom%20RBAC%20roles.md)
 * [Identify the appropriate role](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
    * [Apply principle of least privilege]()
 * [Interpret permissions](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview#how-azure-rbac-determines-if-a-user-has-access-to-a-resource)
