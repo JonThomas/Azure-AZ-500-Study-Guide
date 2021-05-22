@@ -7,7 +7,7 @@
 * Resource groups can be locked, to prevent accidental deletion or modification of the resources in the group
 
 ## Access to resource group
-See [Configure subscription and resource permissions](42-Configure%20resource%20group%20permissions.md) for how to manage access to a resource group.
+See [Configure subscription and resource permissions](41-Configure%20subscription%20and%20resource%20permissions.md) for how to manage access to a resource group.
 
 
 [Return to Manage identity and access](README.md)
