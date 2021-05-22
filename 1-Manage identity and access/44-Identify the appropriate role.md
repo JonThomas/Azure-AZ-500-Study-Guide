@@ -16,7 +16,12 @@
 * ... and many more
 
 ## Azure roles, aka Azure resource roles
-* User Access Administrator
+* Owner: Full access to the resources in Azure RBAC 
+   * Use this role to add a new subscription administrator, for example
+* Contributor: Full access to all resources, but can delegate responsibilities (add/ remove access; share image galleries; assign roles etc)
+* Reader: Can view all resources, but can change anything
+* ...
+* User Access Administrator: Can manage user access to Azure resources. The only role other than Owner who can manage user access?
 
 
 [Return to Manage identity and access](README.md)

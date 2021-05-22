@@ -28,12 +28,12 @@
 
 ## Manage access control
 
-* [Configure subscription and resource permissions](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator)
+* [Configure subscription and resource permissions](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator) | [My notes](41-Configure%20subscription%20and%20resource%20permissions.md)
 * [Configure resource gropup permissions](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator)
 * [Configure custom RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
 * [Identify the appropriate role](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
    * [Apply principle of least privilege]()
-* [Interpret permissions]()
+* [Interpret permissions](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview#how-azure-rbac-determines-if-a-user-has-access-to-a-resource)
    * [Check access]()
 
 [Return to Table of Contents](../README.md)
