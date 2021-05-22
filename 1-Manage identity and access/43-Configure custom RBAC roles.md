@@ -7,8 +7,8 @@
 * The operations are described using the following format: 
    * {Company}.{ProviderName}/{resourceType}/{action}.
    * The wildcard '*' means All actions
-   * Action Example: Microsoft.Authorization/*/Delete
-   * Data Action example: Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete (Delete blob data)
+   * Action operation example: Microsoft.Authorization/*/Delete
+   * Data action operation example: Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete (Delete blob data)
 * Role scope
    * Restrict the role to a specific resource: "/subscriptions/{sub-id}/resourceGroups/{rg-name}/{resource-name}"
 
