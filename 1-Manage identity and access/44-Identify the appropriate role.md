@@ -1,6 +1,7 @@
 # Identify the appropriate role
 
 ![Classic roles, RBAC roles and AD roles](img/ClassicAzureAndAdRoles.png)
+
 Figure: Classic roles, RBAC roles and AD roles
 
 * Role: A collection of actions that the assigned identity can perform. Action examples: "Create disk". "Scale DB".
@@ -18,7 +19,8 @@ Apply least privileges principle: [Video reference](https://techcommunity.micros
    * Use [PIM]((21-Monitor%20privileged%20access%20for%20Azure%20AD%20Privileged%20Identity%20Management%20(PIM).md)) to put a time limit on the admin privileges, and to approve and monitor admin operations
 * Assign roles to groups instead of assigning directly to users
 
-[Azure AD roles reference](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
+Azure AD roles list
+[Reference](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 
 * Global administrator
    * Only one who can set up [password writeback](15-Configure%20password%20writeback.md)
@@ -36,13 +38,13 @@ Apply least privileges principle: [Reference](https://docs.microsoft.com/en-us/a
 * Use management groups for enterprise-wide permissions and resource groups for permissions within subscriptions. 
 * Avoid user-specific permissions
 
-[Azure RBAC roles reference](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
+Azure RBAC roles list
+[Reference](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
 
 * Owner: Full access to the resources in Azure RBAC 
    * Use this role to add a new subscription administrator, for example
 * Contributor: Full access to all resources, but can delegate responsibilities (add/ remove access; share image galleries; assign roles etc)
 * Reader: Can view all resources, but can change anything
-* ...
 * User Access Administrator: Can manage user access to Azure resources. The only role other than Owner who can manage user access?
 
 Link to [a good video that ties together a several identity concepts in Azure](https://www.youtube.com/watch?v=4v7ffXxOnwU)
