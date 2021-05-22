@@ -32,14 +32,7 @@
 * [Configure resource group permissions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) | [My notes](42-Configure%20resource%20group%20permissions.md)
 * [Configure custom RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles) | [My notes](43-Configure%20custom%20RBAC%20roles.md)
 * [Identify the appropriate role](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles) | [My notes, including Apply principle of least privilege](44-Identify%20the%20appropriate%20role.md)
-* [Interpret permissions](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview#how-azure-rbac-determines-if-a-user-has-access-to-a-resource)
-   * [Check access]()
+* [Interpret permissions](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview#how-azure-rbac-determines-if-a-user-has-access-to-a-resource) | [My notes, including Check access](45-Interpret%20permissions.md)
+
 
 [Return to Table of Contents](../README.md)
-
-
-TODO
-* [Configure Multi-Factor Authentication settings](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-mfasettings)
-* [Install and configure Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom)
-* [Configure authentication methods](https://docs.microsoft.com/en-us/azure/security/fundamentals/choose-ad-authn)
-
