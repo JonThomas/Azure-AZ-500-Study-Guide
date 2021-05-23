@@ -3,7 +3,7 @@
 ## Implement advanced network security
 
 * [Secure the connectivity of virtual networks (VPN authentication, Express Route encryption)](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) | [My notes](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md)
-* [Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)](https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group) | [Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) | [ASGs](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
+* [Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) | [My notes](11-Configure%20Network%20Security%20Groups%20(NSGs)%20and%20Application%20Security%20Groups%20(ASGs).md)
 * Create and configure Azure Firewall
 * [Implement Azure Firewall Manager](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)
 * [Configure Azure Front Door service as an Application Gateway](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview) | [Create a Front Door for a highly available global web application](https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door)
@@ -11,7 +11,7 @@
 * Configure Azure Bastion
 * [Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure) | [Configure resource firewall](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security) | [Configure Azure Key Vault firewalls and virtual networks](https://docs.microsoft.com/en-us/azure/key-vault/general/network-security)
 * [Implement Service Endpoints](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview)
-* [Implement DDoS protection](https://azure.microsoft.com/en-us/blog/azure-ddos-protection-2020-year-in-review/)
+* [Implement DDoS protection](https://docs.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)
 
 ## Configure adanced security for compute
 
