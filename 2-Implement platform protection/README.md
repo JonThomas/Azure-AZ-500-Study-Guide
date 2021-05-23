@@ -2,7 +2,7 @@
 
 ## Implement advanced network security
 
-* [Secure the connectivity of virtual networks](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) (VPN authentication, [Express Route encryption](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction)) | [My notes](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md)
+* [Secure the connectivity of virtual networks (VPN authentication, Express Route encryption)](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) | [My notes](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md)
 * [Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)](https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group) | [Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) | [ASGs](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
 * Create and configure Azure Firewall
 * [Implement Azure Firewall Manager](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)

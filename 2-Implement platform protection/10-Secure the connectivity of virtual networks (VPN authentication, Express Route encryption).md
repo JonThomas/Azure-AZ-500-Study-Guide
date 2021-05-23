@@ -46,6 +46,8 @@ Set up a VPN tunnel from an existing Azure VNet to an on-site location, or betwe
 * ExpressRoute allows more reliable connections, faster speeds, consistent latencies, and higher security than typical connections over the Internet.
 * The virtual Gateway offers Basic, Standard and High Performance SKUs. Only Standard and High are supported with Express Route gateways.
 
+[Reference](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction)
+
 ![Express route](img/ExpressRoute.png)
 
 Figure: Express route connections don't go over the public internet.
