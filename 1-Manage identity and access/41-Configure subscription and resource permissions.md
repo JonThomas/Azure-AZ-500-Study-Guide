@@ -12,7 +12,7 @@
 * Settings at the root management group, such as Azure custom roles or Azure Policy policy assignments, affects all resources in the tenant.
 * Any user, by default, can create new management groups within a tenant [Reference](https://docs.microsoft.com/en-us/azure/governance/management-groups/how-to/protect-resource-hierarchy#setting---require-authorization)
 
-![Management groups](img/ManagementGroups.png | width=100)
+![Management groups](img/ManagementGroups.png | width=100))
 Figure: Example showing relationship between management groups and subscriptions
 
 ## Permission to subscriptions
