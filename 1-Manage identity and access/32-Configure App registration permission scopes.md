@@ -29,6 +29,7 @@
    * *Effective permissions* are the least common denominator of the curent signed in users permissions and the apps permissions
 
 ![Scopes](img/Scopes.png | width=100))
+
 Figure: Scope hierarchy
 
 Link to [a good video that ties together a several identity concepts in Azure, including scopes](https://www.youtube.com/watch?v=4v7ffXxOnwU)
