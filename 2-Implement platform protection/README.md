@@ -10,7 +10,7 @@
 * Configure a Web Applicatoin Firewall (WAF) on Azure Application Gateway
 * Configure Azure Bastion
 * [Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure) | [Configure resource firewall](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security) | [Configure Azure Key Vault firewalls and virtual networks](https://docs.microsoft.com/en-us/azure/key-vault/general/network-security)
-* [Configure baseline](https://docs.microsoft.com/en-us/azure/security/fundamentals/network-overview)
+* Implement Service Endpoints
 * Implement DDoS protection
 
 ## Configure adanced security for compute
@@ -32,12 +32,9 @@
 
 TODO:
 * [Security Management in Azure](https://docs.microsoft.com/en-us/azure/security/fundamentals/management)
-* [Security Management in Azure](https://docs.microsoft.com/en-us/azure/security/fundamentals/management)
 * [Configure endpoint security within the VM](https://docs.microsoft.com/en-us/azure/security/fundamentals/antimalware)
-* [Configure VM security](https://docs.microsoft.com/en-us/azure/security/fundamentals/iaas
+* [Configure VM security](https://docs.microsoft.com/en-us/azure/security/fundamentals/iaas)
 * [Configure baseline](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/security-baseline/toolchain) | [Security Baseline discipline overview](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/security-baseline/)
 
-
-[Return to Implement platform protection](README.md)
 
 [Return to Table of Contents](../README.md)
