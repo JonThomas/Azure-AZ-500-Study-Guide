@@ -15,7 +15,7 @@
 * A VNet can have at the most two Virtual Network Gateways: A VPN gateway and an Express Route gateway.
 * Using VNets is free.
 
-![Azure Segmented Network](img/SegmentedNetwork.png | width=100)
+![Azure Segmented Network](img/SegmentedNetwork.png)
 
 Figure: Azure VNet in relationship with other Network components
 

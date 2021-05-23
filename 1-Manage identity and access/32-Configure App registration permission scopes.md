@@ -28,7 +28,7 @@
    * Permision is granted when user logs in
    * *Effective permissions* are the least common denominator of the curent signed in users permissions and the apps permissions
 
-![Scopes](img/Scopes.png | width=100))
+![Scopes](img/Scopes.png)
 
 Figure: Scope hierarchy
 
