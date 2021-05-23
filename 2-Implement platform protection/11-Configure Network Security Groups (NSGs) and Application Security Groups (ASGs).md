@@ -13,7 +13,7 @@
    * Action - allow or deny
 * Security rules are evaluated in priority order (lowest number = highest priority)
 
-![Network security group](img/NetworkSecurityGroup.png)
+![Network security group](img/NetworkSecurityGroup.png | width=100))
 
 Figure: Restricting traffic to internet and between servers
 
