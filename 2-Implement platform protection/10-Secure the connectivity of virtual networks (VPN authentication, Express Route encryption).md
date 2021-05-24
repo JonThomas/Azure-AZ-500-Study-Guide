@@ -12,7 +12,7 @@
    * Deploying a dedicated instance of the service
    * Using a Private link to an instance of a service from within the VNet
    * Connecting the VNet to the Service endpoint provided by a service
-* A VNet can have at the most two Virtual Network Gateways: A VPN gateway and an Express Route gateway.
+* A VNet can have at the most two Virtual Network Gateways: One VPN gateway and one ExpressRoute gateway.
 * Using VNets is free.
 
 ![Azure Segmented Network](img/SegmentedNetwork.png)

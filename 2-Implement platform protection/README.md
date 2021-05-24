@@ -4,7 +4,7 @@
 
 * [Secure the connectivity of virtual networks (VPN authentication, Express Route encryption)](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) | [My notes](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md)
 * [Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) | [My notes](11-Configure%20Network%20Security%20Groups%20(NSGs)%20and%20Application%20Security%20Groups%20(ASGs).md)
-* Create and configure Azure Firewall
+* [Create and configure Azure Firewall](https://docs.microsoft.com/en-us/azure/firewall/features) | [My notes](12-Create%20and%20configure%20Azure%20Firewall.md)
 * [Implement Azure Firewall Manager](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)
 * [Configure Azure Front Door service as an Application Gateway](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview) | [Create a Front Door for a highly available global web application](https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door)
 * Configure a Web Applicatoin Firewall (WAF) on Azure Application Gateway

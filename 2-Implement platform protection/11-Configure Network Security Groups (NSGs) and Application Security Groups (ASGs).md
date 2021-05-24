@@ -28,7 +28,7 @@ Figure: Restricting traffic to internet and between servers
 
 ![Application security group](img/ApplicationSecurityGroup.png)
 
-Figure: Using application security groups to allow and deny access to virtual machines
+Figure: Using application security groups to allow and deny access to virtual machines and network interfaces (nic's)
 
 The following rules are needed to complete the scenario in the figure above, in priority order:
 1. Allow traffic from Internet to AsgWeb
