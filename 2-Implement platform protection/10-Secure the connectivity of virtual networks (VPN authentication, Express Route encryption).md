@@ -41,16 +41,28 @@ Set up a VPN tunnel from an existing Azure VNet to an on-site location, or betwe
 
  * Multi factor authentiation can be set up for the VPN connection.
 
-[Reference](https://docs.microsoft.com/en-us/azure/vpn-gateway/openvpn-azure-ad-mfa)
+[MFA for VPN](https://docs.microsoft.com/en-us/azure/vpn-gateway/openvpn-azure-ad-mfa)
 
 ## Express route
+
+[Express route introduction](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction)
 
 * Bypass the Internet entirely with a private Azure ExpressRoute connection
 * ExpressRoute allows more reliable connections, faster speeds, consistent latencies, and higher security than typical connections over the Internet.
 * Use a Virtual Gateway to set up Express route, a lot like setting up a VPN connection
    * The Virtual Gateway offers Basic, Standard and High Performance SKUs. Only Standard and High SKUs are supported with Express Route.
 
-[Reference](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction)
+### Express route encryption
+
+[About Express route encryption](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-about-encryption)
+
+* Express route supports encryption on the MAC (Network layer 2) and IP (Network layer 3) levels 
+* MACSec is used for encryption on the MAC level, and encrypts all traffic on a physical link.
+   * MACSec is only available with [ExpressRoute Direct](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-erdirect-about) - one of the four ExpressRoute connectivity models, and seems like the premium option. ExpressRoute direct uses an external connectivity provider to physically connect to Azure ([Digiplex Ulven when connecting from Oslo](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-locations-providers))
+   * MACsec is used to encrypt the physical links between on-site network devices and Microsoft's network devices 
+   * Store the MACSec key in KeyVault.
+* IPSec is used for encryption on the IP level, and secures the end to end connection.
+
 
 ![Express route](img/ExpressRoute.png)
 
