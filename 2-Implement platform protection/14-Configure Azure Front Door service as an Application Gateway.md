@@ -23,9 +23,25 @@
 * Session affinity = ("sticky sessions"): Routes all requests from a client to the same backend
 * Custom domain (overriding xyz.azurefd.net)
 
+## Overlap with Application Gateway
+
+[All features of Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/features)
+
+* SSL termination
+* WAF
+* URL-based routing
+* Session affinity
+* Multiple-site hosting
+* HTTP to HTTPS redirection
+
+## Features of Application Gateway only
+
+* Autoscaling !!?? Isn't this required also by Front Door?
+* Connection draining - gracefully removal of backens
+
 ## Azure load balancers
 
-1. Front Door: 
+1. Front Door: Global routing, with top tier performance and reliability
 1. Traffic Manager: Lacks TLS termination and application layer processing(?)
 1. Application Gateway: Load balance between servers at the application layer, within a region
 1. Load Balancer: Network layer load balancing
