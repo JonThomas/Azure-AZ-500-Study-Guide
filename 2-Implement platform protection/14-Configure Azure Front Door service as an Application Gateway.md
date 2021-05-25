@@ -1,5 +1,7 @@
 # Configure Azure Front Door service as an Application Gateway
 
+## About Front Door
+
 * An "entry point", that enables highly scalable, fast and secure web applications
 * Can be used to route client traffic to the fastest and most available application backend
    * Including URL-path based routing for requests
@@ -9,19 +11,19 @@
    * It periodically sends a HTTP request to the backend and meaures the response time.
    * Default probe time is 30 requests pr. minute
    * 200 OK means the backend is up.
-* Front Door routes DNS and HTTP traffic uses AnyCast (= **one to one-of-many**, vs for example Broadcast = one-to-all or Unicast = one-to-one), and always selects the closest, healthy environment:
-   * Outer ring: Primary ring of environments. Contains environments closer to users. Preferred environments 
-   * Inner ring: Falback ring of environments. Handles overflow from outer ring.
+* Front Door routes DNS and HTTP traffic using AnyCast (= *one to one-of-many*, vs for example Broadcast = one-to-all or Unicast = one-to-one), and always selects the closest, healthy environment:
+   * Outer ring: Primary ring of environments. Contains environments closer to users. These environments are preferred by Front Door.
+   * Inner ring: Fallback ring of environments. Handles overflow from outer ring.
 * Front Door uses Split TPS: Front Door optimizes network speed by breaking the end-to-end connection into multiple connections and using different parameters to transfer data across the different legs. The "short connection" between the end user and the Front Door environment means the connection gets established over three short roundtrips instead of three long round trips, which results in saving latency. The "long connection" between the Front Door environment and the backend can be pre-established and then reused
 * The default domain is a subdomain of azurefd.net
 
-## Features
+## Front Door Features
 
 * SSL offloading and SSL certificate management (auto-renewal and auto-provsioning)
 * WAF: Provides protection against SQL injection, XSS, and many other exploits
    * WAF can also be deployed with Application Gateway
-* Session affinity = ("sticky sessions"): Routes all requests from a client to the same backend
-* Custom domain (overriding xyz.azurefd.net)
+* Session affinity = ("sticky sessions"): When enabled, it routes all requests from a client to the same backend
+* Custom domain (overriding the default subdomain *xyz*.azurefd.net)
 
 ## Overlap with Application Gateway
 
@@ -46,10 +48,10 @@
 1. Application Gateway: Load balance between servers at the application layer, within a region
 1. Load Balancer: Network layer load balancing
 
-# Azure Front Door pricing
+## Azure Front Door pricing
 * Pay for ingoing data ...
 * ... and outgoing data ...
-* ... and for each request (by the 10.000s)
+* ... and for each request (pay by the 10.000s)
 
 
 [Return to Implement platform protection](README.md)
