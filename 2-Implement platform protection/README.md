@@ -6,7 +6,7 @@
 * [Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) | [My notes](11-Configure%20Network%20Security%20Groups%20(NSGs)%20and%20Application%20Security%20Groups%20(ASGs).md)
 * [Create and configure Azure Firewall](https://docs.microsoft.com/en-us/azure/firewall/features) | [My notes](12-Create%20and%20configure%20Azure%20Firewall.md)
 * [Implement Azure Firewall Manager](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)
-* [Configure Azure Front Door service as an Application Gateway](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview) | [Create a Front Door for a highly available global web application](https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door)
+* [Configure Azure Front Door service as an Application Gateway](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview) | [My notes](14-Configure%20Azure%20Front%20Door%20service%20as%20an%20Application%20Gateway.md)
 * Configure a Web Applicatoin Firewall (WAF) on Azure Application Gateway
 * Configure Azure Bastion
 * [Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure) | [Configure resource firewall](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security) | [Configure Azure Key Vault firewalls and virtual networks](https://docs.microsoft.com/en-us/azure/key-vault/general/network-security)
