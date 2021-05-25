@@ -30,7 +30,7 @@
 [All features of Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/features)
 
 * SSL termination
-* WAF
+* [WAF](15-Configure%20a%20Web%20Application%20Firewall%20(WAF)%20on%20Azure%20Application%20Gateway.md)
 * URL-based routing
 * Session affinity
 * Multiple-site hosting

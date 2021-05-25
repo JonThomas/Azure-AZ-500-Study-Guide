@@ -7,7 +7,7 @@
 * [Create and configure Azure Firewall](https://docs.microsoft.com/en-us/azure/firewall/features) | [My notes](12-Create%20and%20configure%20Azure%20Firewall.md)
 * [Implement Azure Firewall Manager](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)
 * [Configure Azure Front Door service as an Application Gateway](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview) | [My notes](14-Configure%20Azure%20Front%20Door%20service%20as%20an%20Application%20Gateway.md)
-* Configure a Web Applicatoin Firewall (WAF) on Azure Application Gateway
+* [Configure a Web Application Firewall (WAF) on Azure Application Gateway](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview) | [My notes](15-Configure%20a%20Web%20Application%20Firewall%20(WAF)%20on%20Azure%20Application%20Gateway.md)
 * Configure Azure Bastion
 * [Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure) | [Configure resource firewall](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security) | [Configure Azure Key Vault firewalls and virtual networks](https://docs.microsoft.com/en-us/azure/key-vault/general/network-security)
 * [Implement Service Endpoints](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview)
