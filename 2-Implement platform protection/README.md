@@ -9,7 +9,7 @@
 * [Configure Azure Front Door service as an Application Gateway](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview) | [My notes](14-Configure%20Azure%20Front%20Door%20service%20as%20an%20Application%20Gateway.md)
 * [Configure a Web Application Firewall (WAF) on Azure Application Gateway](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview) | [My notes](15-Configure%20a%20Web%20Application%20Firewall%20(WAF)%20on%20Azure%20Application%20Gateway.md)
 * [Configure Azure Bastion](https://www.youtube.com/watch?v=WElUQm02BTU&list=PLLasX02E8BPDT2Z2pdCHNCkENpcQWy5n6&index=79) | [My notes](16-Configure%20Azure%20Bastion.md)
-* [Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](https://docs.microsoft.com/en-us/azure/storage/common/azure-defender-storage-configure) [My notes](17-Configure%20a%20firewall%20on%20a%20storage%20account,%20Azure%20SQL,%20KeyVault,%20or%20App%20Service.md)
+* [Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](https://docs.microsoft.com/en-us/azure/storage/common/azure-defender-storage-configure) | [My notes](17-Configure%20a%20firewall%20on%20a%20storage%20account,%20Azure%20SQL,%20KeyVault,%20or%20App%20Service.md)
 * [Implement Service Endpoints](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview)
 * [Implement DDoS protection](https://docs.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)
 

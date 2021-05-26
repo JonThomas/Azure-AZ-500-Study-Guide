@@ -8,12 +8,12 @@
 * Defender for Storage can be configured on the subscription level or on an individual storage account
 * Azure Portal -> select storage account -> Settings -> Advanced Security -> Enable Azure Defender for Storage
 
-## Configure Azure Defender for Azure SQL
+## Configure Azure Defender for SQL
 
 [Configure Azure Defender Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/database/azure-defender-for-sql)
 
 * Features:
-   * Vulnerability assessment: Provides visibility into potential DB vulnerabilities, and includes steps by fix them
+   * Vulnerability assessment: Provides visibility into potential DB vulnerabilities, and includes steps on how to fix them
       * A storage account is automatically created to store vulnerablity scans
       * The weekly scan results can be sent on email
    * Advanced Threat Detection: Detects anomalous activity, provides alerts and recommended action
@@ -27,10 +27,10 @@
 [Configure Azure Key Vault firewalls and virtual networks](https://docs.microsoft.com/en-us/azure/key-vault/general/network-security)
 
 * Defender for Key Vault is disabled by default
-* "Allow trusted Microsoft Serices to bypass this firewall" - This option allows a set of Microsoft services where Microsoft controls all of the code to access Key Vault, for example Azure Backup and Azure Event Hub
+* "Allow trusted Microsoft Serices to bypass this firewall" - This option allows a set of Microsoft services - where Microsoft controls all of the code - to access Key Vault, for example Azure Backup or Azure Event Hub
 * Give services with static IPs access to Key Vault by adding their IP-address to the firewalls allow list 
 * Give services with dynamic IPs access to Key Vault by creating the resource in a Virtual Network, and add the VNet and the subnet to the firewalls allow list
-* Set up a private link between Key Vault and a resource in a VNet
+* Access can also be given by setting up a private link between Key Vault and a resource in a VNet
 
 ## Configure Azure Defender for App Service
 
@@ -39,7 +39,7 @@
 * Azure App Service is a fully managed platform for building and hosting your web apps and APIs. 
 * Azure Defender for App Service can identify attacks targeting applications running on App Service.
    * This is made possible by monitoring requests, as they go through several gateways before they hit the application.
-* Azure Defender is automatically enabled for App Service, if Defender is enabled on the subscription level. It not Azure Defender for 
+* Azure Defender is automatically enabled for App Service, if Defender is enabled on the subscription level. It not, then Azure Defender for 
 App Service can be enabled within Azure Defender
 
 
