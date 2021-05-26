@@ -19,7 +19,7 @@
 [Connect to Linux VM](https://docs.microsoft.com/en-us/azure/bastion/bastion-connect-vm-ssh)
 
 * The VNet must contain a subnet called "AzureBastionSubnet" where the Bastion host will be deployed
-   * The Bastion subnet must be at least /27 or larger ([See Create a Virtual Network Gateway](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md#vpn))
+   * The Bastion subnet must be at least /27 or larger ([See Create a Virtual Network Gateway for subnet info](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md#vpn))
 * The Bastion host also need a public IP address, for some reason
 * To use Azure Bastion, your user must have at least a Reader role on the VM, the VM's private NIC, and on the Azure Bastion resource
 * A Windows VM must have port 3389 open for inbound traffic, to be able to connect
