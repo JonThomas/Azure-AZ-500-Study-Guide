@@ -1,5 +1,7 @@
 # AZ-500: Secure data and applications (20-25%)
 
+[Return to Table of Contents](../README.md)
+
 ## Configure security for storage
 
 * [Configure Access Control for Storage Accounts](https://docs.microsoft.com/en-us/azure/storage/blobs/security-recommendations)

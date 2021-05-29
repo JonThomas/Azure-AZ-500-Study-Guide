@@ -12,14 +12,34 @@
    * Direction - incoming or outgoing
    * Action - allow or deny
 * Security rules are evaluated in priority order (lowest number = highest priority)
+* Processing of rules stop as soon as a matching rule (either Deny or Allow) is found
 
-![Network security group](img/NetworkSecurityGroup.png | width=100)
+## Default rules
+
+(Default rules have low priority: >= 65000)
+
+* Allow all traffic between VMs within the subnet
+* Allow ingoing traffic from the default load balancer
+* Deny ingoing traffic from any external source to any VMs
+* Allow outgoing traffic from VMs to the internet
+* Deny traffic that goes out of the VNet
+
+## Service tags
+
+* Microsoft manages specific tags called "Service tags" than can be used in network security group rules:
+   * "VirtualNetwork": Represents all virtual network addresses in Azure in your on-premise network if using hybrid connectivity
+   * "Internet"
+   * "AzureTrafficManager"
+   * "Storage"
+   * "SQL"
+
+![Network security group](img/NetworkSecurityGroup.png)
 
 Figure: Restricting traffic to internet and between servers
 
 ## Application security group
 
-* Application security groups are used to group and name VMs and network interfaces, to simplify security rules and to avoid using IP-adresses in security rules.
+* Application security groups are used to group and name VMs and network interfaces logically, to simplify security rules and to avoid using IP-adresses in security rules.
 
 1. Create the application security group "Asg007"
 1. Create the network interface

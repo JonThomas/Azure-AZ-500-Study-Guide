@@ -1,5 +1,7 @@
 # AZ-500: Manage security operations (20-25%)
 
+[Return to Table of Contents](../README.md)
+
 ## Monitor security by using Azure Monitor
 
 * [Create and customize alerts](https://docs.microsoft.com/en-us/azure/security-center/security-center-vulnerability-assessment-recommendations)
