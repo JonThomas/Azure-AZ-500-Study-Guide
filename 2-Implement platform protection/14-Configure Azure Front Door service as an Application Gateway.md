@@ -21,7 +21,7 @@
 
 * SSL offloading and SSL certificate management (auto-renewal and auto-provsioning)
 * WAF: Provides protection against SQL injection, XSS, and many other exploits
-   * WAF can also be deployed with Application Gateway
+   * WAF can also be deployed with an Application Gateway and with a CDN
 * Session affinity = ("sticky sessions"): When enabled, it routes all requests from a client to the same backend
 * Custom domain (overriding the default subdomain *xyz*.azurefd.net)
 

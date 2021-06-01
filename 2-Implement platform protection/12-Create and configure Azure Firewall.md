@@ -1,6 +1,7 @@
 # Create and configure Azure Firewall
 
 * An Azure Firewall protects resources in a Virtual Network (VNet).
+   * Each virtual network can have a firewall enabled
 * Azure Firewall uses a static public IP address for your virtual network resources allowing outside firewalls to identify traffic originating from your virtual network
    * What are the implications of this??
 * Azure Firewall provides most of the functionality you'd expect in traditional firewalls. It also leverages Microsoft threat intelligence to identify malicious IP addresses

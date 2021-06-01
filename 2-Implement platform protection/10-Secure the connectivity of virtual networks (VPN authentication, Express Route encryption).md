@@ -50,7 +50,7 @@ Set up a VPN tunnel from an existing Azure VNet to an on-site location, or betwe
 * Bypass the Internet entirely with a private Azure ExpressRoute connection
 * ExpressRoute allows more reliable connections, faster speeds, consistent latencies, and higher security than typical connections over the Internet.
 * Use a Virtual Gateway to set up Express route, a lot like setting up a VPN connection
-   * The Virtual Gateway offers Basic, Standard and High Performance SKUs. Only Standard and High SKUs are supported with Express Route.
+   * The Virtual Gateway offers Basic, Standard and High Performance SKUs (SKU represents a purchasable Stock Keeping Unit). Only Standard and High SKUs are supported with Express Route.
 * Public peering vs Microsoft peering?? (see [Secure Azure service access from on-premises](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview#secure-azure-service-access-from-on-premises))
 
 ### Express route encryption

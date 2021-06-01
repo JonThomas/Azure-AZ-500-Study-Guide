@@ -3,6 +3,7 @@
 ## Network security group
 
 * A network security group is the main way of restricting unnecessary traffic, by filtering network traffic to and from Azure resources (Filtering can also be done on the [Virtual Network](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md) level)
+* A network security group is always associated with a subnet or a network interface
 * A network security group contains security rules, describing allowed and denied communication to and from network interfaces and subnets.
 * Security rules have the following properties:
    * Priority - between 100 and 4096
@@ -13,6 +14,7 @@
    * Action - allow or deny
 * Security rules are evaluated in priority order (lowest number = highest priority)
 * Processing of rules stop as soon as a matching rule (either Deny or Allow) is found
+* NSGs are stateful: If inbound traffic is allowed, then outbound traffic is automatically allowed
 
 ## Default rules
 
