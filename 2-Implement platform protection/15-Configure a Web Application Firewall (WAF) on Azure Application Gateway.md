@@ -1,10 +1,14 @@
 # Configure a Web Application Firewall (WAF) on Azure Application Gateway
 
-* About [Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/overview))
+* About [Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
    * The basic Application Gateway is a load balancer. It uses application layer load balancing (basing routing decisions on HTTP request properties), for example routing all requests for /images to a server pool for images, and /videos to a server pool for videos. 
 * The Application Gateway have different tiers:
    1. Standard
-   1. Standard V2: Autoscaling; Zone redundancy (App instances can be deployed to different zones); Key vault integration; Kubernetes Service ingress controller
+   1. Standard V2: Includes 
+      * Autoscaling
+      * Zone redundancy: App instances can be deployed to different zones (unique physical locations within a region)
+      * Key vault integration
+      * Kubernetes Service ingress controller
    1. WAF
    1. WAF V2
 * Web Application Firewall provides protection against SQL injection, XSS, and many other exploits

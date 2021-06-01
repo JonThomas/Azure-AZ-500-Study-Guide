@@ -18,7 +18,7 @@
 ## Configure adanced security for compute
 
 * [Configure endpoint protection](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-network-endpoints) | [My notes](21-Configure%20endpoint%20protection.md)
-* [Configure and monitor system updates for VMs](https://docs.microsoft.com/en-us/azure/automation/automation-tutorial-update-management)
+* [Configure and monitor system updates for VMs](https://docs.microsoft.com/en-us/azure/automation/update-management/overview) | [My notes](22-Configure%20and%20monitor%20system%20updates%20for%20VMs.md)
 * [Configure authentication for Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication)
 * Configure security for different types of containers
    * [Implement vulnerability management](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security)
