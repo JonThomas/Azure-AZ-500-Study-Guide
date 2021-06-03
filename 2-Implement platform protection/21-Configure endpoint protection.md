@@ -24,7 +24,9 @@
    * Data is only available through Azure AD.
    * Sandbox for uploading files
 * Accessible through Microsoft Defender Security Center
-* 7 pillars:
+
+### 7 pillars:
+
 1. Threat and vulnerability management
    * Risk based approach
    * Protects angainst vulnerabilities and misconfiguration in real time. 
@@ -38,10 +40,10 @@
 1. Endpoint Detection for Endpoint & response - for finding threats that want to stay hidden
    * Collects behaviours and attacker techniques on endpoints to define an alert for suspicious or malicious activity
    * Visually investigate and take actions: Threat hunting
-   * Write queries across all endpoint. Six months of data
-   * Submit files for inspection
+   * Write queries across all endpoints. Six months of data
+   * Submit files for inspection, using the sandbox
 1. Automation: Auto investigation and remediation
-   * Reduces alters that have to be manually handled
+   * Reduces alerts that have to be manually handled
 1. Mcrosoft Threat Experts
    * Managed threat service
    * Reach out to experts
