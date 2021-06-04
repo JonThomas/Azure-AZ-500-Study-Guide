@@ -19,7 +19,7 @@
 
 * [Configure endpoint protection](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-network-endpoints) | [My notes](21-Configure%20endpoint%20protection.md)
 * [Configure and monitor system updates for VMs](https://docs.microsoft.com/en-us/azure/automation/update-management/overview) | [My notes](22-Configure%20and%20monitor%20system%20updates%20for%20VMs.md)
-* [Configure authentication for Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication)
+* [Configure authentication for Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication) | [My notes](23-Configure%20authentication%20for%20Azure%20Container%20Registry.md)
 * Configure security for different types of containers
    * [Implement vulnerability management](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security)
    * [Configure isolation for AKS](https://azure.microsoft.com/en-us/resources/container-security-in-microsoft-azure/) | [Configure AKS security](https://docs.microsoft.com/en-us/azure/aks/concepts-security) | [Isolation Modes](https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-containers/hyperv-container) | [PDF](https://azure.microsoft.com/mediahandler/files/resourcefiles/container-security-in-microsoft-azure/Open%20Container%20Security%20in%20Microsoft%20Azure.pdf)
