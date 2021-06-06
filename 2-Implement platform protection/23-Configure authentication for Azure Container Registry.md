@@ -33,6 +33,7 @@
       * User name is the name of the container registry. 
       * Disabled by default
       * Admin account is required in some scenarios
+         * For example portal deployment of image from registry to Azure App Service or Azure Container Instances
       * Two passwords are provided (useful to remain connected to the registry while regenerating the other)
 
 ## Other security features of ACR

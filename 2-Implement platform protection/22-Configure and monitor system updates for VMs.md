@@ -14,6 +14,9 @@
 * A deployment schedule decides when a machine, a Computer Group, or machines based on an Azure Query is updated
    * 20 minutes of the maintenance windows is reserved for reboot. If the update finishes with less than 20 minutes left, the reboot isn't performed.
 
+TODO: Automation account and key features
+TODO: How to update on-prem resources
+
 [Return to Implement platform protection](README.md)
 
 [Return to Table of Contents](../README.md)

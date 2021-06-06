@@ -20,10 +20,10 @@
 * [Configure endpoint protection](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-network-endpoints) | [My notes](21-Configure%20endpoint%20protection.md)
 * [Configure and monitor system updates for VMs](https://docs.microsoft.com/en-us/azure/automation/update-management/overview) | [My notes](22-Configure%20and%20monitor%20system%20updates%20for%20VMs.md)
 * [Configure authentication for Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication) | [My notes](23-Configure%20authentication%20for%20Azure%20Container%20Registry.md)
-* Configure security for different types of containers
+* Configure security for different types of containers | [My notes](24-Configure%20security%20for%20different%20types%20of%20containers.md)
    * [Implement vulnerability management](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security)
-   * [Configure isolation for AKS](https://azure.microsoft.com/en-us/resources/container-security-in-microsoft-azure/) | [Configure AKS security](https://docs.microsoft.com/en-us/azure/aks/concepts-security) | [Isolation Modes](https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-containers/hyperv-container) | [PDF](https://azure.microsoft.com/mediahandler/files/resourcefiles/container-security-in-microsoft-azure/Open%20Container%20Security%20in%20Microsoft%20Azure.pdf)
-   * [Configure security for container registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication) | [FAQ](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-faq)
+   * [Configure isolation for AKS](https://azure.microsoft.com/en-us/resources/container-security-in-microsoft-azure/) | [My notes](24-1-Configure%20isolation%20for%20AKS.md)
+   * [Configure security for container registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication) | [My notes](23-Configure%20authentication%20for%20Azure%20Container%20Registry.md#other-security-features-of-acr)
 * [Implement Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss)
 * Configure authentication and security for Azure App Service
    * [Configure SSL/TLS certs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-configure-ssl-certificate-portal) | [Configure TLS mutual authentication for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
@@ -37,6 +37,7 @@ TODO:
 * [Configure endpoint security within the VM](https://docs.microsoft.com/en-us/azure/security/fundamentals/antimalware)
 * [Configure VM security](https://docs.microsoft.com/en-us/azure/security/fundamentals/iaas)
 * [Configure baseline](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/security-baseline/toolchain) | [Security Baseline discipline overview](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/security-baseline/)
+* [Container registry FAQ](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-faq)
 
 
 [Return to Table of Contents](../README.md)
