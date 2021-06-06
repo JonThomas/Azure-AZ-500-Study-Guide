@@ -9,17 +9,18 @@
 1. [Deploy application to Azure App Service](https://code.visualstudio.com/docs/containers/app-service#_push-the-image-to-a-container-registry)
    1. Tag the container
    1. Push the container to the Azure Container Registry
-   * Deploy the container to Azure App Service
+   * Either: Deploy the container to Azure App Service
       1. Create an App Service
       1. Deploy the container
-   or 
-   * Deploy the container to Azure Container Instance
+   * Or: Deploy the container to Azure Container Instance
       1. Create the Container Instance (Se below)
       1. Deploy the container
 
 ## Azure Container Instance
 
-> "[...] the preferred way to package, deploy and manage cloud applications [...] that can operate in isolated containers"
+[What is Azure Container Instance](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview)
+
+> "Azure Container Instances offers the fastest and simplest way to run a container in Azure [...] that can operate in isolated containers"
 > "For scenarios where you need full container orcestration, including service discovery across multiple containers, automatic scaling, [...] we recommend Azure Kubernetes Service (AKS)"
 * No virtual servers involved
    * Enables faster startup times (seconds)
