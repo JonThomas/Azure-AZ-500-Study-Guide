@@ -43,10 +43,14 @@
 
 ## Azure load balancers
 
+[Understand Azure Load Balancing](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
+
 1. Front Door: Global routing, with top tier performance and reliability
 1. Traffic Manager: Lacks TLS termination and application layer processing(?)
 1. Application Gateway: Load balance between servers at the application layer, within a region
-1. Load Balancer: Network layer load balancing
+1. Load Balancer: Network layer load balancing. 
+   * Use for non http(s) traffic
+   * Use for internal (not internet facing) applications
 
 ## Azure Front Door pricing
 * Pay for ingoing data ...
