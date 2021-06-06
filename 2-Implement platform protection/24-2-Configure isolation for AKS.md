@@ -9,18 +9,20 @@
 
 * Teams and workloads (environments) can be logically isolated in the same cluster
 * Logical isolation: A Kubernetes [Namespace](https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads#namespaces) creates a logical isolation boundary
-* Physical isolation: Create a cluster for each team/ environment.
-   * Use for example in a multi tenant scenario where not all tenants can be trusted, since multiple tenants are working on a shared common infrastructure.
 
 ![Kubernetes namespace](img/KubernetesNamespaces.png)
 
 Figure: Namespaces logically group resources such as pods and deployments, to divide the AKS cluster and restrict access to the resources
+
+* Physical isolation: Create a cluster for each team/ environment.
+   * Use for example in a multi tenant scenario where not all tenants can be trusted, since multiple tenants are working on a shared common infrastructure.
 
 ## Application Gateway Ingress Controller
 
 [What is Application Gateway Ingress Controller?](https://docs.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview)
 
 * The Application Gateway Ingress Controller (AGIC) is a Kubernetes application that makes it possible to for AKS to use the Application Gateway.
+* Provides TSL and WAF functionality to the AKS Cluster
 * Eliminates the need for an other load balancer/ public IP in front of the cluster.
 * Improves performance
 
