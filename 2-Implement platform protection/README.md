@@ -21,8 +21,8 @@
 * [Configure and monitor system updates for VMs](https://docs.microsoft.com/en-us/azure/automation/update-management/overview) | [My notes](22-Configure%20and%20monitor%20system%20updates%20for%20VMs.md)
 * [Configure authentication for Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication) | [My notes](23-Configure%20authentication%20for%20Azure%20Container%20Registry.md)
 * Configure security for different types of containers | [My notes](24-Configure%20security%20for%20different%20types%20of%20containers.md)
-   * [Implement vulnerability management](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security)
-   * [Configure isolation for AKS](https://azure.microsoft.com/en-us/resources/container-security-in-microsoft-azure/) | [My notes](24-1-Configure%20isolation%20for%20AKS.md)
+   * [Implement vulnerability management](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security) | [My notes](24-1-Implement%20vulnerability%20management.md)
+   * [Configure isolation for AKS](https://azure.microsoft.com/en-us/resources/container-security-in-microsoft-azure/) | [My notes](24-2-Configure%20isolation%20for%20AKS.md)
    * [Configure security for container registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication) | [My notes](23-Configure%20authentication%20for%20Azure%20Container%20Registry.md#other-security-features-of-acr)
 * [Implement Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss)
 * Configure authentication and security for Azure App Service
