@@ -24,7 +24,7 @@
    * [Implement vulnerability management](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security) | [My notes](24-1-Implement%20vulnerability%20management.md)
    * [Configure isolation for AKS](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation) | [My notes](24-2-Configure%20isolation%20for%20AKS.md)
    * [Configure security for container registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication) | [My notes](23-Configure%20authentication%20for%20Azure%20Container%20Registry.md#other-security-features-of-acr)
-* [Implement Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss)
+* [Implement Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss) | [My notes](25-Implement%20Azure%20Disk%20Encryption.md)
 * Configure authentication and security for Azure App Service
    * [Configure SSL/TLS certs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-configure-ssl-certificate-portal) | [Configure TLS mutual authentication for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
    * Configure authentication for Azure Kubernetes Services
