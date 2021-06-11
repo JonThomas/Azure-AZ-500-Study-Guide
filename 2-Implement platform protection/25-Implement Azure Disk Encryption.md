@@ -14,9 +14,10 @@
 1. Create a resource group
 1. Create a key vault, enabled for disk encryption
 1. Optionally add a Key Encryption Key to the vault for extra security
-1. Encrypt the VM (encryption key is generated and stored to key vault automatically)
+1. Encrypt the VM using one of the following commands (encryption key is generated and stored to key vault automatically)
+
 > az vm encryption enable -g MyResourceGroup --name MyVM --disk-encryption-keyvault myKV
-or
+
 > use the Set-AzVMDiskEncryptionExtension commandlet
 
 [Return to Implement platform protection](README.md)

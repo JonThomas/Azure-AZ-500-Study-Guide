@@ -25,14 +25,16 @@
    * [Configure isolation for AKS](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation) | [My notes](24-2-Configure%20isolation%20for%20AKS.md)
    * [Configure security for container registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication) | [My notes](23-Configure%20authentication%20for%20Azure%20Container%20Registry.md#other-security-features-of-acr)
 * [Implement Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss) | [My notes](25-Implement%20Azure%20Disk%20Encryption.md)
-* Configure authentication and security for Azure App Service
-   * [Configure SSL/TLS certs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-configure-ssl-certificate-portal) | [Configure TLS mutual authentication for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
+* Configure authentication and security for Azure App Service | [My notes](26-Configure%20authentication%20and%20security%20for%20Azure%20App%20Service%20.md)
+   * [Configure SSL/TLS certs](https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate-in-code) | [My notes](26-1-Configure%20SSL%20TLS%20certs.md)
    * Configure authentication for Azure Kubernetes Services
    * Configure automatic updates
 
 
 
 TODO:
+* [Configure SSL/TLS certs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-configure-ssl-certificate-portal)
+* [Configure TLS mutual authentication for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
 * [Security Management in Azure](https://docs.microsoft.com/en-us/azure/security/fundamentals/management)
 * [Configure endpoint security within the VM](https://docs.microsoft.com/en-us/azure/security/fundamentals/antimalware)
 * [Configure VM security](https://docs.microsoft.com/en-us/azure/security/fundamentals/iaas)

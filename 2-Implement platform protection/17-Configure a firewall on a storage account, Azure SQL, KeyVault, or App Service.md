@@ -39,8 +39,7 @@
 * Azure App Service is a fully managed platform for building and hosting your web apps and APIs. 
 * Azure Defender for App Service can identify attacks targeting applications running on App Service.
    * This is made possible by monitoring requests, as they go through several gateways before they hit the application.
-* Azure Defender is automatically enabled for App Service, if Defender is enabled on the subscription level. It not, then Azure Defender for 
-App Service can be enabled within Azure Defender
+* Azure Defender is automatically enabled for App Service, if Defender is enabled on the subscription level. It not, then Azure Defender for App Service can be enabled within Azure Defender
 
 
 [Return to Implement platform protection](README.md)
