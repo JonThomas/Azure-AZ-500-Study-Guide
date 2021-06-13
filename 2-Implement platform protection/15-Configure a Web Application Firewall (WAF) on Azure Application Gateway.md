@@ -24,7 +24,7 @@
 
 * Application Gateway can host up to 40 websites, and all will be protected by the WAF
 * Possible to create custom policies for each site
-* Monitor attacks using real time WAF log, integrated into [Azure Monitor](../3-Manage%20security%20operations/README.md#monitor-security-by-using-azure-monitor)
+* You can monitor attacks using real time WAF log, integrated into [Azure Monitor](../3-Manage%20security%20operations/README.md#monitor-security-by-using-azure-monitor)
 * WAF is also integrated in [Security Center](../3-Manage%20security%20operations/README.md#monitor-security-by-using-azure-security-center)
 
 ## Policies and rules

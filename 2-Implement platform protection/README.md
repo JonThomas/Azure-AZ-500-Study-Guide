@@ -33,8 +33,6 @@
 
 
 TODO:
-* [Configure SSL/TLS certs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-configure-ssl-certificate-portal)
-* [Configure TLS mutual authentication for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
 * [Security Management in Azure](https://docs.microsoft.com/en-us/azure/security/fundamentals/management)
 * [Configure endpoint security within the VM](https://docs.microsoft.com/en-us/azure/security/fundamentals/antimalware)
 * [Configure VM security](https://docs.microsoft.com/en-us/azure/security/fundamentals/iaas)
