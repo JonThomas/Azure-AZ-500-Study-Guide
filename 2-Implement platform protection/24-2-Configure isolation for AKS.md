@@ -17,18 +17,6 @@ Figure: Namespaces logically group resources such as pods and deployments, to di
 * Physical isolation: Create a cluster for each team/ environment.
    * Use for example in a multi tenant scenario where not all tenants can be trusted, since multiple tenants are working on a shared common infrastructure.
 
-## Application Gateway Ingress Controller
-
-[What is Application Gateway Ingress Controller?](https://docs.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview)
-
-* The Application Gateway Ingress Controller (AGIC) is a Kubernetes application that makes it possible to for AKS to use the Application Gateway.
-* Provides TSL and WAF functionality to the AKS Cluster
-* Eliminates the need for an other load balancer/ public IP in front of the cluster.
-* Improves performance
-
- 
-
-
 [Return to Implement platform protection](README.md)
 
 [Return to Table of Contents](../README.md)

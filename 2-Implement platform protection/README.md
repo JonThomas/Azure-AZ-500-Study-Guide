@@ -27,7 +27,7 @@
 * [Implement Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss) | [My notes](25-Implement%20Azure%20Disk%20Encryption.md)
 * Configure authentication and security for Azure App Service | [My notes](26-Configure%20authentication%20and%20security%20for%20Azure%20App%20Service%20.md)
    * [Configure SSL/TLS certs](https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate-in-code) | [My notes](26-1-Configure%20SSL%20TLS%20certs.md)
-   * Configure authentication for Azure Kubernetes Services
+   * [Configure authentication for Azure Kubernetes Services](https://docs.microsoft.com/en-us/azure/aks/concepts-identity) | [My notes](26-2-Configure%20authentication%20for%20Azure%20Kubernetes%20Services.md)
    * Configure automatic updates
 
 
