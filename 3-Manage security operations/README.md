@@ -2,8 +2,7 @@
 
 [Return to Table of Contents](../README.md)
 
-[Comparing Azure Monitor, Azure Security Center and Azure Sentinel](00-Comparing%20Azure%20Monitor,%20Azure%20Security%20Center%20and%20Azure%20Sentinel.md)
-
+[My notes: Comparing Azure Monitor, Azure Security Center and Azure Sentinel](00-Comparing%20Azure%20Monitor,%20Azure%20Security%20Center%20and%20Azure%20Sentinel.md)
 
 ## Monitor security by using Azure Monitor
 

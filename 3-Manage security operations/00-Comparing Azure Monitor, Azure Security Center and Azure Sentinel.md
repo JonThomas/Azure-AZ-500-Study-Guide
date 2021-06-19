@@ -17,8 +17,8 @@
    * Action Groups
    * Action Rules
 * Features:
-   * Application Insights
-       * Create smart alerts
+   * Application Insights, VM Insights, Container Insights
+   * Create smart alerts
    * Automate actions
       * Azure Function
       * Azure Logic Apps
@@ -29,12 +29,14 @@
 
 [Azure Monitor agent overview](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-overview)
 
-* Collects logs from guest operating system of VMs, and feeds them to Azure Monitor.
+* Collects logs from guest operating system of VMs, and feeds them to Azure Monitor or Log Analytics.
+   * Performance data (Destinations: both Azure Monitor and Log Analytics)
+   * Windows Event logs (Windows) and Syslogs (Linux) (Destination: Log Analytics)
 * Centrally configured
 * Set up Data Collection Rules (DCR) to configure data collection from each agent.
    * Rules can be defined once, and resued by many agents.
 * Replaces Log Analytics agent, Diagnostics extensions and Telegraf agent.
-
+* Monitoring agent can be automatically installed on new and existing VMs by activating the uto provisioning extension "Log Analytics agent for Azure VMs" in Azure Securiy Center. [Reference](https://docs.microsoft.com/en-us/azure/security-center/security-center-enable-data-collection#why-use-auto-provisioning)
 
 # Azure Security Center
 
