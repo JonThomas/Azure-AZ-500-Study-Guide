@@ -25,6 +25,24 @@
       * ...
    * Azure dashboards and workbooks can create visualizations
 
+### Azure Monitor Sources
+
+[Sources of monitoring data for Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-sources)
+
+![Azure Monitor Sources](img/AzureMonitorSources.png)
+
+* Application
+   * Application Insights
+* Operating System
+* Azure Resources
+   * Metrics
+   * Resource logs - Insights into internal operation of a resource
+* Azure Subscription
+   * Service Health
+   * Activity Log - Health records along with configuration changes made to subscription resources
+* Azure Tenant - Data from tenant level servicec, such as Active Directory
+* Custom sources
+
 ### Monitoring agent
 
 [Azure Monitor agent overview](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-overview)

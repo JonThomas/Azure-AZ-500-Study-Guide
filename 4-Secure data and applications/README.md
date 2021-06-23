@@ -8,7 +8,8 @@
 * [Configure Key Management for Storage Accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)
 * [Configure Azure AD Authentication for Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
 * [Configure Azure AD Domain Services Authentication for Azure Files](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-active-directory-enable)
-* [Create and manage Shared Access Signatures (SAS)](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
+* [Create and manage Shared Access Signatures (SAS)](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview) | [My notes](15-Create%20and%20manage%20Shared%20Access%20Signatures%20(SAS).md)
+   * Create a shared access policy for a blob or blob container
 * [Implement Storage Service Encryption](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption)
 * Configure Azure Defender for Storage
 
