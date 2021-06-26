@@ -4,6 +4,14 @@
 * OAuth
 * Passwordless (most secure)
 
+## Azure Ad Connect
+
+[What is Azure AD Connect?](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect)
+
+* Azure AD Connect is required for all hybrid authentication methods
+* Using Azure AD Connect is free.
+* Use the Synchronization Rules Editor to control which users are synced with Azure AD.
+
 ## Authentication in hybrid scenarios
 
 [Choose the right authentication method for your Azure Active Directory hybrid identity solution](https://docs.microsoft.com/en-us/azure/security/fundamentals/choose-ad-authn)

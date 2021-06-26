@@ -23,8 +23,8 @@
 
 ## Configure and Manage Key Vault
 
-* [Manage access to Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-secure-your-key-vault) 
-* Manage permissions to [Secrets](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-secrets), [Certificates](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-certificates), and [Keys](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-keys)
+* [Manage access to Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-secure-your-key-vault) | [My notes](31-Manage%20access%20to%20Key%20Vault.md)
+* Manage permissions to [Secrets](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-secrets), [Certificates](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-certificates), and [Keys](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-keys) | [My notes](32-Manage%20permissions%20to%20secrets,%20certificates,%20and%20keys.md)
    * [Configure RBAC usage in Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/overview-security)
 * [Manage Certificates](https://docs.microsoft.com/en-us/azure/key-vault/certificate-scenarios)
 * [Manage Secrets](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-certificates)

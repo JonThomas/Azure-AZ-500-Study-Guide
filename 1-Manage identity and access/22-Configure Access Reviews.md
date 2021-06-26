@@ -11,7 +11,6 @@
 * When setting up a review for a group, assign the reviewers to be owners of that group
 * When reviewing guests or a large number of users, they can do the review themselves
 
-
 ## Pricing
 
 * Access revies is one of only six services that requires the highest [Active Directory subscription license](https://azure.microsoft.com/en-us/pricing/details/active-directory/): Azure AD Premium P2
