@@ -1,5 +1,7 @@
 # Manage access to Key Vault
 
+* Microsoft recommends separate key vaults for production, test and development.
+
 ## Network security
 
 * Network connectivity can be configured when creating the key vault, and a firewall will be added:
@@ -20,18 +22,6 @@
 1. Key vault returns secret
 
 ![Key vault authentication flow](img/KeyVaultAuthenticationFlow.png)
-
-## Three ways for an applicatoion to access the key vault (all three requires Azure AD):
-* Application-only
-   * The application represents service principal or managed identity
-   * _objectid_ for the application must be specified in the access policy (_applicationid_ must *not* be specified)
-* User-only
-   * User accesses key vault from app registered in the tenant, for example Azure portal or Azure powershell.
-   * _objectid_ for the application must be specified in the access policy (_applicationid_ must *not* be specified)
-* Application-plus-user (compound identity)
-   * The user is required to access the key vault from a specific application and the application must use the on-behalf-of authentication (OBO) flow to impersonate the user. 
-   * Both _objectid_ (representing the user) and _applicationid_ (representing the application) must be specified in the access policy
-
 
 [Return to Secure data and applications](README.md)
 

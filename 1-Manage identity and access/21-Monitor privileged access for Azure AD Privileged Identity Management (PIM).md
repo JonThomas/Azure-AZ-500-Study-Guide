@@ -10,8 +10,6 @@
    * Account Administrator
    * Service Administrator
    * Co-administrator
-* PIM enables [creating access reviews](22-Configure%20Access%20Reviews.md) for Azure AD roles and Azure RBAC roles (??)
-
 
 ## Pricing
 PIM is one of only six services that requires the highest [Active Directory subscription license](https://azure.microsoft.com/en-us/pricing/details/active-directory/): Azure AD Premium P2
