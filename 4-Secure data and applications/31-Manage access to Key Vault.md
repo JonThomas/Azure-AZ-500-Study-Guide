@@ -7,7 +7,7 @@
    * Public endpoints (selected VNets, se below)
    * Private endpoint (use a private IP from an Azure VNet to access the key vault)
    * Can optionally also allow trusted Microsoft services to be able to bypass the firewall (Azure backup, Azure Storage etc)
-* Create a Virtual Network Service Endpoint for Azure Key Vault, to limit access to the key vault for a specific VNet [Implement Service Endpoints](../2-Implement%20platform protection/18-Implement%20Service%20Endpoints.md)
+* Create a Virtual Network Service Endpoint for Azure Key Vault, to limit access to the key vault for a specific VNet [Implement Service Endpoints](../2-Implement%20platform%20protection/18-Implement%20Service%20Endpoints.md)
 * IP-address: Limit exposure to key vault by IP-address
 
 ## Identity management
