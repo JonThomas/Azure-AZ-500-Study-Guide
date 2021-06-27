@@ -17,6 +17,11 @@ Storage:
    * Private endpoint (use a private IP from an Azure VNet to access the key vault)
       * Must choose a storage type (see above) and a VNet
 
+## Access a storage account
+
+* Using the storage account keys: Will gain access to the whole account from any location, for as long as the keys are valid
+* Using Shared Access Signatures (SAS): Can configure fine grained access control
+
 [Return to Secure data and applications](README.md)
 
 [Return to Table of Contents](../README.md)

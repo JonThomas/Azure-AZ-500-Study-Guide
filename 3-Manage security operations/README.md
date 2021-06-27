@@ -7,7 +7,7 @@
 ## Monitor security by using Azure Monitor
 
 * [Create and customize alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log) | [My notes](10-Create%20and%20customize%20alerts.md)
-* [Monitor security logs by using Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/azure-management)
+* [Monitor security logs by using Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/azure-management) | [My notes](11-Monitor%20security%20logs%20by%20using%20Azure%20Monitor.md)
 * [Configure diagnostic logging and log retention](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/platform-logs-overview) | [Create diagnostic setting to collect platform logs and metrics in Azure](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings) | [Configure log retention](https://docs.microsoft.com/en-us/azure/azure-monitor/app/data-retention-privacy) | [Configure Data Retention](https://docs.microsoft.com/en-us/rest/api/storageservices/setting-a-storage-analytics-data-retention-policy) | [Learn about retention policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention-policies?view=o365-worldwide)
 
 
