@@ -16,7 +16,7 @@
 ## Configure security for databases
 * [Enable Database Authentication](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-aad-authentication)
 * [Enable Database Auditing](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-auditing)
-* Configure Azure Defender for SQL
+* Configure Azure Defender for SQL | [My notes](23-Configure%20Azure%20Defender%20for%20SQL.md)
    * [Configure Azure SQL Database Advanced Threat Protection](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-threat-detection) | [Overview](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-threat-detection-overview)
 * [Implement Database Encryption - Transparent Data Encryption (TDE)](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption)
    * [Implement Azure SQL Database Always Encrypted](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-always-encrypted)

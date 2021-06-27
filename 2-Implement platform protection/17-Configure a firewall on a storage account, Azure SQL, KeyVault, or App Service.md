@@ -7,6 +7,7 @@
 * Protects data in Azure blogs, Azure files, and Data Lakes.
 * Defender for Storage can be configured on the subscription level or on an individual storage account
 * Azure Portal -> select storage account -> Settings -> Advanced Security -> Enable Azure Defender for Storage
+* If the Storage Account is configured to only allow access from a Private endpoint or a VNet, then the content won't be accessible from a local computer, even when accessing the content through the Portal
 
 ## Configure Azure Defender for SQL
 

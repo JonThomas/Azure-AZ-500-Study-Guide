@@ -31,7 +31,7 @@ Three ways for an application to access the key vault (all three requires Azure 
 
 To use RBAC roles with Key Vault, the key vault must be configured to use the 'Azure role-based access control' permission model 
 
-* The _Key Vault Contributor_ role is valid for the Management plane only.
+* The _Key Vault Contributor_ role is valid for the Management plane only (Similar to [Storage account](13-Configure%20Azure%20AD%20authentication%20for%20Azure%20Storage.md#azure))
 * Many roles exist for the data plane. Examples:
    * Key Vault Administrator (Perform all data plan operations). Cannot manage key vault resources or manage role assignments
    * Key Vault Certificate Officer (Perfor any action on certificates)
