@@ -9,8 +9,12 @@
    * Stored in table AzureActivity
 * Resource logs - logs for all resources for the data plane
 
+## Default retention
+
 * Azure AD stores logs for 90 days by default
 * Azure Acitvity logs are also stored for 90 days by default
+
+## Increase log retention
 
 * Logs can be sent to different destinations for longer retention by creating a diagnostics setting
    * Log analytics workspace - to analyze them using Azure Monitor. Works across regions.
