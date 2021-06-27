@@ -4,7 +4,7 @@ Azure storage data, including Resource Manager account, is always encrypted at r
 
 ## Encrypt data using Microsoft managed key
 
-* Default encryption scheme
+* This is the default encryption scheme
 * Works with all storage services
 
 ## Encrypt data at rest using own key

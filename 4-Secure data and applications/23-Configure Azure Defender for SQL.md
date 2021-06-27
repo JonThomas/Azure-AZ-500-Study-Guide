@@ -11,17 +11,27 @@
 
 [Advanced Threat Protection alerts](https://docs.microsoft.com/en-us/azure/security-center/alerts-reference#alerts-sql-db-and-warehouse)
 
-Alerts:
-* A possible vulnerability to SQL Injection (Medium): An application has submitted a faulty SQL statement
-* Attempted logon by a potentially harmful application (High)
-* Log on from an unusual Azure Data Center/ Location/ IP (Low/ Medium/ Medium)
-* Login from a principal user not seen in 60 days: A principal user has logged in for the first time in 60 days (Medium)
-* Potential SQL Brute Force attempt: An abnormally high number of failed sign in attempts (High)
-* Potential SQL injection (High)
-* Potentially Unsafe Action (High)
-* Suspected brute force attack using a valid user (High)
-* Suspected successful brute force attack (High): Success!
-* Unusual export location: Someone has extracted a massive amoun of data from SQL Server
+## Alerts
+
+### High Severity
+
+* Attempted logon by a potentially harmful application
+* Potential SQL Brute Force attempt: An abnormally high number of failed sign in attempts
+* Potential SQL injection
+* Suspected brute force attack using a valid user
+* Suspected successful brute force attack: Success!
+* Potentially Unsafe Action
+* Unusual export location: Someone has extracted a massive amount of data from SQL Server
+
+### Medium Severity
+
+* A possible vulnerability to SQL Injection: An application has submitted a faulty SQL statement
+* Log on from an unusual Location/ IP
+* Login from a principal user not seen in 60 days: A principal user has logged in for the first time in 60 days
+
+### Low Severity
+
+* Log on from an unusual Azure Data Center
 
 [Return to Secure data and applications](README.md)
 
