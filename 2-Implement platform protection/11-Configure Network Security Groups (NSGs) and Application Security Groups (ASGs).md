@@ -15,6 +15,7 @@
 * Security rules are evaluated in priority order (lowest number = highest priority)
 * Processing of rules stop as soon as a matching rule (either Deny or Allow) is found
 * NSGs are stateful: If inbound traffic is allowed, then outbound traffic is automatically allowed
+* Security rules can not allow/ deny traffic to domain names!
 
 ## Default rules
 

@@ -9,6 +9,9 @@
    * At least one (and up to 250) public IP addresses must be configured on the firewall
 * Azure Firewall provides most of the functionality you'd expect in traditional firewalls. It also leverages Microsoft threat intelligence to identify malicious IP addresses
 * Azure Firewall Premium also includes TLS-inspection and IDPS (Intrusion Detection and Protection System)
+* Firewall rules
+   * Application rules: Allows the subnet to access a fully qualified domain name (FQDN)
+   * Network rules: Allows definition of source/ destination IP addresses, ports and protocol
 
 ## Azure firewall/ Application Gateway scenarios
 

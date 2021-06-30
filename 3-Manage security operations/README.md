@@ -13,7 +13,7 @@
 ## Monitor security by using Azure Security Center
 
 * [Evaluate vulnerability scans from Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/security-center-alerts-overview) | [My notes](21-Evaluate%20vulnerability%20scans%20from%20Azure%20Security%20Center.md)
-* [Configure Just-in-Time VM access by using Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/security-center-just-in-time) | [Just in time access azure vms](https://docs.microsoft.com/en-us/archive/blogs/mvpawardprogram/just-in-time-access-azure-vms)
+* [Configure Just-in-Time VM access by using Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/security-center-just-in-time) | [Just in time access azure vms](https://docs.microsoft.com/en-us/archive/blogs/mvpawardprogram/just-in-time-access-azure-vms) | [My notes](22-Configure%20Just%20in%20Time%20VM%20access%20by%20using%20Azure%20Security%20Center.md)
 * [Configure centralized policy management by using Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/tutorial-security-policy)
 * Configure compliance policies and evaluate for compliance by using Azure Security Center
 * Configure workflow automation by using Azure Security Center
