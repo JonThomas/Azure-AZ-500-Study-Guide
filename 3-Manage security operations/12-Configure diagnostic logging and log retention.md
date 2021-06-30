@@ -13,8 +13,9 @@
       * Audit logs
       * Sign-ins (how many sign-ins has been made last week/ What's the sign-in pattern of a user?)
 * Activiy logs - logs from all resources for the management plan 
+   * Activity logs for a VM will therefore provide information about changes being made to the VM in Azure (who created it) - not VM guest level diagnostics information (who turned the firewall off)
    * Stored in table AzureActivity
-   * Available in the portal from most blades. The menu that oyu open it from determines the initial filter. 
+   * Available in the portal from most blades. The menu that you open it from determines the initial filter. 
 * Resource logs - logs for all resources for the data plane
    * Resource logs aren't available until they're sent to a destination
 * Storage account logs (Diagnostics logs are stored in the _$logs_ blob container)
@@ -23,6 +24,8 @@
       * Logs for read and/ or write and/ or delete operations kan be kept
    * Retention can be specified for both metrics and logs
    * Only logs with the v2 format can store requests authorized with an OAuth 2.0 token provided by Azure AD
+* Diagnostics settings ("Logs")
+   * Diagnostic logs for VMs must be activated: "Guest-level monitoring"
 
 ## Default retention
 

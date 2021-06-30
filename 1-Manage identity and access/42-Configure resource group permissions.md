@@ -6,6 +6,10 @@
 * Resource groups, and its metadata is located together in the region you decide
 * Resource groups can be locked, to prevent accidental deletion or modification of the resources in the group
 
+## Creating a resource group
+1. Create the resource group
+1. Add resources to the resource group
+
 ## Access to resource group
 See [Configure subscription and resource permissions](41-Configure%20subscription%20and%20resource%20permissions.md) for how to manage access to a resource group.
 

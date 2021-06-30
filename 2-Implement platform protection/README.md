@@ -2,6 +2,8 @@
 
 [Return to Table of Contents](../README.md)
 
+[My notes on different network components](00-Network%20components.md)
+
 ## Implement advanced network security
 
 * [Secure the connectivity of virtual networks (VPN authentication, Express Route encryption)](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) | [My notes](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md)

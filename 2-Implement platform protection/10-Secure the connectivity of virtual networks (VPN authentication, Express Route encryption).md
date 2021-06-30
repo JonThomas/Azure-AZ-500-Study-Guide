@@ -5,7 +5,7 @@
 * VNet is one of three ways Azure resources can communicate securely with each other:
    * VNet: Many types of Azure resources can be deployed into a VNet, including App Service, AKS and VM Scale Sets.
    * [Virtual Network Service Endpoints](18-Implement%20Service%20Endpoints.md)
-   * [VNet Peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview) - which is a way to connect multiple VNets
+   * [VNet Peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview) - which is a way to connect two or more VNets.
 * All resources in a VNet can communicate outwards with other internet resources by default
    * Use a Load Balancer to restrict outbound traffic
 * Add services (for example Microsoft.Sql or Microsoft.CognitiveServices) to the VNet in one of three ways:
