@@ -27,3 +27,5 @@
    * Godkjente passord
    * Dersom «contosoas» er ulovlig, kan «123contoso@s» benyttes?
 1. Hvem kan endre subscription - only billing administrator
+1. Kan man pinge en annen maskin i samme subnet? Forskjellige subnet? Samme VLan? Forskjellige VLan?
+1. Firewall - hvordan å stoppe/ tillate http requests
