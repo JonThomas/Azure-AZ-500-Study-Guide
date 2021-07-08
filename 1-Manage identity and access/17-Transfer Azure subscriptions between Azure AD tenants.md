@@ -10,7 +10,7 @@
 * Subscription:
    * Represents a billing entity and a security boundary. A subscription can only trust one tenant/ directory.
    * Azure tenant is a directory, whereas subscription is an object that represents a "folder" where you can put in your resources.
-   * Subscriptions are tied to tenants. A single tenant can have many subscriptions, but not vice versa is not possible.
+   * Subscriptions are tied to tenants. A single tenant can have many subscriptions, but vice versa is not possible.
 
 ## Transfer subscription to an other tenant
 
@@ -25,6 +25,8 @@
 * Requires downtime
 * Any key vaults must be reconfigured in the new tenant
 * Encrypted data at rest might be unrecoverable if encryption key is tied to subscription
+* Who? 
+   * Only the billing administrator of an account can transfer ownership of a subscription
 
 
 

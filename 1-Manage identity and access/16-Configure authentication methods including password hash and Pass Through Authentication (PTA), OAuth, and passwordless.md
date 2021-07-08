@@ -30,6 +30,10 @@
 * Supports only Account Disabling (not Account lockout, Account expiration, Password expiration or Logon hours)
 > Is Leaked credentials only available with Password hash synchronization?? What about native Azure AD? 
 
+### ADFS federation
+* Ensures user authentication happens on-site: Passwords are not synced to Azure
+* Lots of features, including smart card authentication
+
 [Return to Manage identity and access](README.md)
 
 [Return to Table of Contents](../README.md)

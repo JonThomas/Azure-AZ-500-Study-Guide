@@ -4,7 +4,7 @@
    * Kubernetes RBAC: Users and groups can be granted the access to the resources they need by using 
       * Kubernetes RBAC is designed to work on Kubernetes resources within an AKS cluster
    * It is possible to secure an Azure Kubernetes Service (AKS) even further, by using Azure Active Directory and Azure RBAC
-      * Azure RBAC is designed to work in resources within your Azure Subscription
+      * Azure RBAC is designed to work with resources within your Azure Subscription
 
 ## Kubernetes RBAC
 
