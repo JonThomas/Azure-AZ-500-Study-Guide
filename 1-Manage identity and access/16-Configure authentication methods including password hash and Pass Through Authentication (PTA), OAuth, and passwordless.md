@@ -1,5 +1,7 @@
 # Configure authentication methods
 
+[Configure authentication methods including password hash and Pass Through Authentication (PTA), OAuth and passwordless](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods)
+
 ![Azure AD Authentication methods](img/authentication-methods.png)
 * OAuth
 * Passwordless (most secure)

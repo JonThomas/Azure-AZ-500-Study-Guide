@@ -1,5 +1,7 @@
 # Implement Conditional Access Policies including Multi-Factor Authentication
 
+[Implement Conditional Access Policies including Multi-Factor Authentication](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/best-practices)
+
 Conditional access policies:
 * Using location, network location (IP), group membership, application, devices and real time risk detection ... ("**_signals_**")
 * ... to block or allow users, require MFA, require compliant device, force password change or require terms of use

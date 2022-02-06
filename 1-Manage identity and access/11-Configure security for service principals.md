@@ -1,5 +1,7 @@
 # Configure security for service principals
 
+[Configure security for service principals](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/service-accounts-principal)
+
 ## General
 * A service principal functions as the identity for an application instance, including who can access it and which resources the application can access. 
 > Service principals is an AD concept, so the application has to be registered with AD. See [Manage application access](README.md)

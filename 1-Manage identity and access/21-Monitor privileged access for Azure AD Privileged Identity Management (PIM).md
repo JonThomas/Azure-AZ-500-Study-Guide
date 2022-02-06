@@ -1,5 +1,7 @@
 # Monitor privileged access for Azure AD Privileged Identity Management (PIM)
 
+[Monitor privileged access for Azure AD Privileged Identity Management (PIM)](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-deployment-plan)
+
 * Privileged Identity Management (PIM) provides time-based and approval-based role activated access to resources
 * It is possible to get notified when privileged roles are activated
 * PIM can force a user to:

@@ -1,5 +1,7 @@
 # Manage App registration permission consent
 
+[Manage App registration permission consent](https://docs.microsoft.com/en-us/azure/active-directory/develop/consent-framework)
+
 ## Delegated permissions workflow
 [Delegated permissions](https://github.com/JonThomas/Azure-AZ-500-Study-Guide/blob/master/1-Manage%20identity%20and%20access/32-Configure%20App%20registration%20permission%20scopes.md#delegated-permissions-vs-application-permissions)
 

@@ -1,5 +1,7 @@
 # Configure password writeback
 
+[Configure password writeback](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-writeback)
+
 * Used to write passwords changed in Azure AD back to onsite AD.
 * Only relevant in hybrid scenarious (obviously) and when Self Service Password Reset (SSPR) has been configured i Azure AD (also obvious)
 

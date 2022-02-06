@@ -1,5 +1,7 @@
 # Configure App registration permission scopes
 
+[Configure App registration permission scopes](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent)
+
 * Permission scope = Permission sets = the set of permissions that an app requests/ needs/ offers, for example to access files, a persons calendar or the Azure key vault
 * Scope definition: Scope is one ore more resources that the access applies to
 * Scope answers the question: "**Where** does access apply?"

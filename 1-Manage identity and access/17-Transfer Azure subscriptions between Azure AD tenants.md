@@ -1,5 +1,7 @@
 # Transfer Azure subscriptions between Azure AD tenants
 
+[Transfer Azure Subscriptions between Azure AD tenants](https://docs.microsoft.com/en-us/azure/role-based-access-control/transfer-subscription)
+
 ## Concepts
 
 * Tenant

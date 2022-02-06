@@ -1,5 +1,7 @@
 # Configure resource group permissions
 
+[Configure resource group permissions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)
+
 * A resource group is a container that holds related resources
 * Microsoft advices to keep resources that share the same lifecycle to the same resource group.
    * This makes it easy to deploy, update, and delete them as a group

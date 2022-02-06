@@ -1,5 +1,7 @@
 # Identify the appropriate role
 
+[Identify the appropriate role](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
+
 ![Classic roles, RBAC roles and AD roles](img/ClassicAzureAndAdRoles.png)
 
 Figure: Classic roles, RBAC roles and AD roles

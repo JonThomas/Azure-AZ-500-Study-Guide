@@ -3,36 +3,36 @@
 [Return to Table of Contents](../README.md)
 
 ## Manage Azure Active Directory identities
-* [Configure security for service principals](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/service-accounts-principal) | [My notes](11-Configure%20security%20for%20service%20principals.md)
-* [Manage Azure AD Directory Groups](https://docs.microsoft.com/en-us/microsoft-365/enterprise/manage-microsoft-365-groups) | [My notes](12-Manage%20Azure%20AD%20directory%20groups.md)
-* [Manage Azure AD Users](https://docs.microsoft.com/en-us/microsoft-365/enterprise/manage-microsoft-365-accounts) | [My notes](13-Manage%20Azure%20AD%20users.md)
-* [Manage administrative units](https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units) | [My notes](14-Manage%20administrative%20units.md)
-* [Configure password writeback](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-writeback) | [My notes](15-Configure%20password%20writeback.md)
-* [Configure authentication methods including password hash and Pass Through Authentication (PTA), OAuth and passwordless](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods) | [My notes](16-Configure%20authentication%20methods%20including%20password%20hash%20and%20Pass%20Through%20Authentication%20(PTA),%20OAuth,%20and%20passwordless.md)
-* [Transfer Azure Subscriptions between Azure AD tenants](https://docs.microsoft.com/en-us/azure/role-based-access-control/transfer-subscription) | [My notes](17-Transfer%20Azure%20subscriptions%20between%20Azure%20AD%20tenants.md)
+* [Configure security for service principals](11-Configure%20security%20for%20service%20principals.md)
+* [Manage Azure AD Directory Groups](12-Manage%20Azure%20AD%20directory%20groups.md)
+* [Manage Azure AD Users](13-Manage%20Azure%20AD%20users.md)
+* [Manage administrative units](14-Manage%20administrative%20units.md)
+* [Configure password writeback](15-Configure%20password%20writeback.md)
+* [Configure authentication methods including password hash and Pass Through Authentication (PTA), OAuth and passwordless](16-Configure%20authentication%20methods%20including%20password%20hash%20and%20Pass%20Through%20Authentication%20(PTA),%20OAuth,%20and%20passwordless.md)
+* [Transfer Azure Subscriptions between Azure AD tenants](17-Transfer%20Azure%20subscriptions%20between%20Azure%20AD%20tenants.md)
 
 ## Configure secure access by using Azure AD
 
-* [Monitor privileged access for Azure AD Privileged Identity Management (PIM)](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-deployment-plan) | [My notes](21-Monitor%20privileged%20access%20for%20Azure%20AD%20Privileged%20Identity%20Management%20(PIM).md)
-* [Configure Access Reviews](https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) | [My notes](22-Configure%20Access%20Reviews.md)
-* [Configure PIM](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-getting-started) | [My notes](23-Configure%20PIM.md)
-* [Implement Conditional Access Policies including Multi-Factor Authentication](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/best-practices) | [My notes](24-Implement%20Conditional%20Access%20Policies%20including%20Multi-Factor%20Authentication.md)
-* [Configure Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/) | [My notes](25-Configure%20Azure%20AD%20Identity%20Protection.md)
+* [Monitor privileged access for Azure AD Privileged Identity Management (PIM)](21-Monitor%20privileged%20access%20for%20Azure%20AD%20Privileged%20Identity%20Management%20(PIM).md)
+* [Configure Access Reviews](22-Configure%20Access%20Reviews.md)
+* [Configure PIM](23-Configure%20PIM.md)
+* [Implement Conditional Access Policies including Multi-Factor Authentication](24-Implement%20Conditional%20Access%20Policies%20including%20Multi-Factor%20Authentication.md)
+* [Configure Azure AD Identity Protection](25-Configure%20Azure%20AD%20Identity%20Protection.md)
 
 ## Manage application access
 
-* [Create App registration](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) | [My notes](31-Create%20App%20registration.md)
-* [Configure App registration permission scopes](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent) | [My notes](32-Configure%20App%20registration%20permission%20scopes.md)
-* [Manage App registration permission consent](https://docs.microsoft.com/en-us/azure/active-directory/develop/consent-framework) | [My notes](33-Manage%20App%20registration%20permission%20consent.md)
-* [Manage API access to Azure subscriptions and resources](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad) | [Authentication flows and application scenarios](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios) | [Azure Active Directory Graph API](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-graph-api) | [My notes](34-Manage%20API%20access%20to%20Azure%20subscriptions%20and%20resources.md)
+* [Create App registration](31-Create%20App%20registration.md)
+* [Configure App registration permission scopes](32-Configure%20App%20registration%20permission%20scopes.md)
+* [Manage App registration permission consent](33-Manage%20App%20registration%20permission%20consent.md)
+* [Manage API access to Azure subscriptions and resources](34-Manage%20API%20access%20to%20Azure%20subscriptions%20and%20resources.md)
 
 ## Manage access control
 
-* [Configure subscription and resource permissions](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator) | [My notes](41-Configure%20subscription%20and%20resource%20permissions.md)
-* [Configure resource group permissions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) | [My notes](42-Configure%20resource%20group%20permissions.md)
-* [Configure custom RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles) | [My notes](43-Configure%20custom%20RBAC%20roles.md)
-* [Identify the appropriate role](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles) | [My notes, including Apply principle of least privilege](44-Identify%20the%20appropriate%20role.md)
-* [Interpret permissions](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview#how-azure-rbac-determines-if-a-user-has-access-to-a-resource) | [My notes, including Check access](45-Interpret%20permissions.md)
+* [Configure subscription and resource permissions](41-Configure%20subscription%20and%20resource%20permissions.md)
+* [Configure resource group permissions](42-Configure%20resource%20group%20permissions.md)
+* [Configure custom RBAC roles](43-Configure%20custom%20RBAC%20roles.md)
+* [Identify the appropriate role (including Apply principle of least privilege)](44-Identify%20the%20appropriate%20role.md)
+* [Interpret permissions (including Check access)](45-Interpret%20permissions.md)
 
 
 [Return to Table of Contents](../README.md)

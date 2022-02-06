@@ -1,5 +1,7 @@
 # Configure subscription and resource permissions
 
+[Configure subscription and resource permissions](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator)
+
 * Azure RBAC roles can be assigned to management groups, subscriptions or resource groups
 
 ## Permission to management groups

@@ -1,5 +1,7 @@
 # Manage Azure AD directory groups
 
+[Manage Azure AD Directory Groups](https://docs.microsoft.com/en-us/microsoft-365/enterprise/manage-microsoft-365-groups)
+
 * Allows resource owner to set permissions to all members of the group.
 * A group is a security boundary
 * Groups can be configured to define membership based on rules (job title; department; ...): "Dynamic group membership". 

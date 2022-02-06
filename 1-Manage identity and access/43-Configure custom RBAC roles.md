@@ -1,5 +1,7 @@
 # Configure custom RBAC roles
 
+[Configure custom RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
+
 * Azure comes with many built in roles: [Azure RBAC roles reference](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
 * If none of the built in roles fit, you can create your own custom roles.
 * Typically, a custom role is made by modifying an existing role, or by combining permissions used in different roles

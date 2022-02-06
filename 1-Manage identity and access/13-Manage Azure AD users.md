@@ -1,5 +1,7 @@
 # Manage Azure AD users
 
+[Manage Azure AD Users](https://docs.microsoft.com/en-us/microsoft-365/enterprise/manage-microsoft-365-accounts)
+
 * An Azure user is required to access any Azure resource.
 * Use Azure AD Connect to provide synchronization for on-premise user accounts and passwords and for single sign-on (SSO) functionality.
 
