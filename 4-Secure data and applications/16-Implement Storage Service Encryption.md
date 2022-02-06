@@ -1,5 +1,7 @@
 # Implement Storage Service Encryption
 
+[Implement Storage Service Encryption](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption)
+
 Azure storage data, including Resource Manager account, is always encrypted at rest - using technology similar to BitLocker encryption on Windows.
 
 ## Encrypt data using Microsoft managed key

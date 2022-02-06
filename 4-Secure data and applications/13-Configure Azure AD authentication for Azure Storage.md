@@ -1,5 +1,7 @@
 # Configure Azure AD authentication for Azure Storage
 
+[Configure Azure AD Authentication for Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
+
 ## Azure
 
 [Assign an Azure role for access to blob data](https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access)

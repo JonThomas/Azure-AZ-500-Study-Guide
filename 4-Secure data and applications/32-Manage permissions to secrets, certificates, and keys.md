@@ -1,5 +1,7 @@
 # Manage permissions to secrets, certificates, and keys
 
+Manage permissions to [Secrets](https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets), [Certificates](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-certificates), and [Keys](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#key-vault-keys)
+
 ## General notes
 
 * When a user is granted permissions to read keys, they can read all keys: Key Vault doesn't support permissions on object level (for example permission to a specific key)

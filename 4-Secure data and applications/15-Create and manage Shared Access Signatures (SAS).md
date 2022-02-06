@@ -1,5 +1,7 @@
 # Create and manage Shared Access Signatures (SAS)
 
+[Create and manage Shared Access Signatures (SAS)](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
+
 ## Shared Access Signatures
 
 [Grant limited access to Azure Storage resources using shared access signatures (SAS)](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)

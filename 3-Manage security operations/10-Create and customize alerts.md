@@ -1,6 +1,6 @@
 # Create and customize alerts
 
-[Create, view, and manage log alerts using Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log)
+[Create and customize alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log)
 
 ## Create and view log alerts
 

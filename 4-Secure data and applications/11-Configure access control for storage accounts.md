@@ -1,5 +1,7 @@
 # Configure access control for storage accounts
 
+[Configure Access Control for Storage Accounts](https://docs.microsoft.com/en-us/azure/storage/blobs/security-recommendations)
+
 Storage:
 * Blob
 * File

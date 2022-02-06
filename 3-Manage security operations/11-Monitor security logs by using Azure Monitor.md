@@ -1,5 +1,7 @@
 # Monitor security logs by using Azure Monitor
 
+[Monitor security logs by using Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/azure-management)
+
 ## Important Azure Monitor Tables
 
 [Azure Monitor Logs table reference #Security](https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/tables-category#security)

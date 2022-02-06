@@ -1,5 +1,7 @@
 # Manage access to Key Vault
 
+[Manage access to Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-secure-your-key-vault)
+
 * Microsoft recommends separate key vaults for production, test and development.
 
 ## Network security
