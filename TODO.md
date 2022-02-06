@@ -12,14 +12,14 @@
 1. PIM
    * To modes: Enabled og Assigned?
 1. Firewall
-   * Kan man aksessere fra internett når regelen står slupper trafikk ut?
+   * Kan man aksessere ressurser fra internett når regelen slipper trafikk ut?
 1. Resource Locks
 1. Storage - hvordan å nå Files, Tables, Shares (access methods)
    * SAS
    * Shared key
    * Azure Ad
    * Kombinasjon
-1. Storage - fileshare: hvordan å autentisere med om-site AD
+1. Storage - fileshare: hvordan å autentisere med on-site AD
    1. Azure det man alltid trenger lokalt
    1. Azure Ad noe annet
    1. Del shared key? Eller et filshare?
