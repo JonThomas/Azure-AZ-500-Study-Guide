@@ -1,5 +1,7 @@
 # Configure a Web Application Firewall (WAF) on Azure Application Gateway
 
+[Configure a Web Application Firewall (WAF) on Azure Application Gateway](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview)
+
 * About [Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
    * The basic Application Gateway is a load balancer. It uses application layer load balancing (basing routing decisions on HTTP request properties), for example routing all requests for /images to a server pool for images, and /videos to a server pool for videos. 
 * The Application Gateway have different tiers:

@@ -1,5 +1,7 @@
 # Secure the connectivity of virtual networks (VPN authentication, Express Route encryption)
 
+[Secure the connectivity of virtual networks (VPN authentication, Express Route encryption)](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+
 * Azure Virtual Network (VNet) ~ segmented vLAN 
 * A VNet enables Azure resources to securely communicate with each other, the internet, and on-premises networks. It also enables filtering of network traffic by deploying for example a firewall, routing of network traffic, and integration with Azure services.
 * VNet is one of three ways Azure resources can communicate securely with each other:

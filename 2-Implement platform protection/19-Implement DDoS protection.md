@@ -1,5 +1,7 @@
 # Implement DDoS protection
 
+[Implement DDoS protection](https://docs.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)
+
 ## DDoS Basic
 
 * Every property in Azure is protected by DDoS Basic for free.

@@ -1,5 +1,7 @@
 # Configure Azure Front Door service as an Application Gateway
 
+[Configure Azure Front Door service as an Application Gateway](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)
+
 ## About Front Door
 
 * An "entry point", that enables highly scalable, fast and secure web applications

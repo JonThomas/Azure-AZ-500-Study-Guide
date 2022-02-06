@@ -1,5 +1,7 @@
 # Configure endpoint protection
 
+[Configure endpoint protection](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-network-endpoints)
+
 * An endpoint is an address exposed by your application, to enable others to communicate with the application.
 * Defend application endpoints by placing filter controls/ rule sets on the network traffic that the endpoint receives
 * Azure resources that can protect your endpoint:

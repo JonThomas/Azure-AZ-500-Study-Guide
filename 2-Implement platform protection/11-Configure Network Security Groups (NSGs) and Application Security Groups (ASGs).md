@@ -1,5 +1,7 @@
 # Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)
 
+[Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
+
 ## Network security group
 
 * A network security group is the main way of restricting unnecessary traffic, by filtering network traffic to and from Azure resources (Filtering can also be done on the [Virtual Network](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md) level)

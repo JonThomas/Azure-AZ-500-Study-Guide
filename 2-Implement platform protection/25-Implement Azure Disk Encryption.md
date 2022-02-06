@@ -1,5 +1,7 @@
 # Implement Azure Disk Encryption
 
+[Implement Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss)
+
 ## Linux VMs
 
 [Azure Disk Encryption for Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/disk-encryption-overview)

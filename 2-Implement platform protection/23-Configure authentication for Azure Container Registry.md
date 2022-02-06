@@ -1,5 +1,7 @@
 # Configure authentication for Azure Container Registry
 
+[Configure authentication for Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication)
+
 ## Azure Container Registry (ACR)
 
 [Introduction to private Docker Container Registries](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)

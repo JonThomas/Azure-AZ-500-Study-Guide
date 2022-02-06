@@ -1,5 +1,7 @@
 # Configure and monitor system updates for VMs
 
+[Configure and monitor system updates for VMs](https://docs.microsoft.com/en-us/azure/automation/update-management/overview)
+
 [Update Management overview](https://docs.microsoft.com/en-us/azure/automation/update-management/overview)
 
 * "Update Management" in Azure Automation can be used to keep Windows and Linux VMs updated, both on-prem and in many clouds

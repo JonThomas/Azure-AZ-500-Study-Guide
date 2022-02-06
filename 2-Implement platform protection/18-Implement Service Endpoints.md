@@ -1,5 +1,7 @@
 # Implement Service Endpoints
 
+[Implement Service Endpoints](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview)
+
 * A VNet Virtual Service Endpoint provides secure and direct connectivity to Azure Services
    * Used for example to connect your Azure resource directly to CosmosDb, KeyVault or SQLServer, without using a public IP address
 * Currently (as of 30th of May 2021), [13 services](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview) exposes sevice endpoints in most Azure regions.

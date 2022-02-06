@@ -1,5 +1,7 @@
 # Configure Azure Bastion
 
+[Configure Azure Bastion](https://www.youtube.com/watch?v=WElUQm02BTU&list=PLLasX02E8BPDT2Z2pdCHNCkENpcQWy5n6&index=79)
+
 * Azure Bastion is used instead of RDP'ing or SSH'ing directly into an Azure VM
 * VMs are accessed and managed directly from within the Azure Portal
    * RDP packets never leave Azure

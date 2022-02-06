@@ -1,5 +1,7 @@
 # Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service
 
+[Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](https://docs.microsoft.com/en-us/azure/storage/common/azure-defender-storage-configure)
+
 ## Configure Azure Defender for Storage
 
 [Configure Azure Defender for Storage](https://docs.microsoft.com/en-us/azure/storage/common/azure-defender-storage-configure)

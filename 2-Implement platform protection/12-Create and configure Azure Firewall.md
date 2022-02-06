@@ -1,5 +1,7 @@
 # Create and configure Azure Firewall
 
+[Create and configure Azure Firewall](https://docs.microsoft.com/en-us/azure/firewall/features)
+
 [Azure Firewall Features](https://docs.microsoft.com/en-us/azure/firewall/features)
 
 * An Azure Firewall protects resources in a Virtual Network (VNet).
