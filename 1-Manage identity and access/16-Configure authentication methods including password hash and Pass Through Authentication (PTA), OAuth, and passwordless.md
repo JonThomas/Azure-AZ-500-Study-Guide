@@ -30,7 +30,6 @@
 * Passwords are maintained in on-site AD, and a password hash is synchronized to Azure to enable sign in to Azure with on-site domain credentials
 * Enables Leaked credential detection (with Azure AD Premium P2): User account will be tag'ed as "High risk" account if the username and password is found in a breach
 * Supports only Account Disabling (not Account lockout, Account expiration, Password expiration or Logon hours)
-> Is Leaked credentials only available with Password hash synchronization?? What about native Azure AD? 
 
 ### ADFS federation
 * Ensures user authentication happens on-site: Passwords are not synced to Azure

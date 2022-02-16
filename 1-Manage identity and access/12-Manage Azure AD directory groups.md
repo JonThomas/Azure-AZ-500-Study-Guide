@@ -19,6 +19,7 @@
 > ADDS (whether on prem or in the cloud) is an LDAP server that provides additional services, for example group policies, authentication, and trust features 
 >
 > https://www.apps4rent.com/blog/active-directory-domain-services-vs-azure-active-directory/
+> https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-compare-azure-ad-to-ad
 
 
 
