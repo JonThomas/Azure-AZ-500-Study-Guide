@@ -7,7 +7,6 @@
 * [Manage Azure AD Directory Groups](12-Manage%20Azure%20AD%20directory%20groups.md)
 * [Manage Azure AD Users](13-Manage%20Azure%20AD%20users.md)
 * [Manage administrative units](14-Manage%20administrative%20units.md)
-* [Configure password writeback](15-Configure%20password%20writeback.md)
 * [Configure authentication methods including password hash and Pass Through Authentication (PTA), OAuth and passwordless](16-Configure%20authentication%20methods%20including%20password%20hash%20and%20Pass%20Through%20Authentication%20(PTA),%20OAuth,%20and%20passwordless.md)
 * [Transfer Azure Subscriptions between Azure AD tenants](17-Transfer%20Azure%20subscriptions%20between%20Azure%20AD%20tenants.md)
 
