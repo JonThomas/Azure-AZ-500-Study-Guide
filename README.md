@@ -8,5 +8,6 @@
 4. [Secure data and applications (20-25%)](4-Secure%20data%20and%20applications/README.md)
 
 
-Updated to reflect exam changes as of June 2, 2021.
-[Download this version of the exam skills outline](exam-az-500-microsoft-azure-security-technologies.pdf)
+[Exam as of September 29, 2021](exam-az-500-microsoft-azure-security-technologies-2021-09-29.pdf)
+
+*[Previous version of exam - June 2, 2021](exam-az-500-microsoft-azure-security-technologies.pdf)*

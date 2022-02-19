@@ -4,7 +4,13 @@
 
 ![Azure AD Authentication methods](img/authentication-methods.png)
 * OAuth
+   * Open standard that specifies how time-based one-time-passwords are generated
+   * Hardware or Software (For example MS Authenticator)
+   * OATH TOTP hardware tokens typically come with a secret key, preprogrammed in the token, which must be input into Azure AD. The hardware token does a refresh of the code every 30 or 60 seconds.
 * Passwordless (most secure)
+   * Windows Hello for Business
+   * Microsoft Authenticator app
+   * FIDO2 security keys (FIDO = "Fast IDentity Online"), and allows users to sign in with external hardware key over Bluetooth, NFC, Lightning or USB.
 
 ## Azure Ad Connect
 
