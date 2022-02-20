@@ -11,7 +11,7 @@
 * [Create and configure Azure Firewall](12-Create%20and%20configure%20Azure%20Firewall.md)
 * [Implement Azure Firewall Manager](13-Implement%20Azure%20Firewall%20Manager.md)
 * [Configure Azure Front Door service as an Application Gateway](14-Configure%20Azure%20Front%20Door%20service%20as%20an%20Application%20Gateway.md)
-* [Configure a Web Application Firewall (WAF) on Azure Application Gateway](15-Configure%20a%20Web%20Application%20Firewall%20(WAF)%20on%20Azure%20Application%20Gateway.md)
+* [Create and configure a Web Application Firewall (WAF)](15-Create%20and%20configure%20a%20Web%20Application%20Firewall%20(WAF).md)
 * [Configure Azure Bastion](16-Configure%20Azure%20Bastion.md)
 * [Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](17-Configure%20a%20firewall%20on%20a%20storage%20account,%20Azure%20SQL,%20KeyVault,%20or%20App%20Service.md)
 * [Implement Service Endpoints](18-Implement%20Service%20Endpoints.md)

@@ -1,7 +1,21 @@
-# Configure a Web Application Firewall (WAF) on Azure Application Gateway
+# Create and configure a Web Application Firewall (WAF)
 
-[Configure a Web Application Firewall (WAF) on Azure Application Gateway](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview)
+[Create and configure a Web Application Firewall (WAF)](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview)
 
+Learn: [Describe what is Web Application Firewall](https://docs.microsoft.com/en-us/learn/modules/describe-basic-security-capabilities-azure/6-describe-what-web-application-firewall)
+
+## About Azure Web Application Firewall
+* Use WAF to achieve centralized protection for your web applications from common exploits and vulnerabilities.
+* WAF provides protection against SQL injection, XSS, and many other exploits
+* Protects only HTTP-based resources (hence the name: *Web Application* Firewall)
+
+
+WAF can be deployed with:
+* Azure Application Gateway
+* Azure Front Door
+* Azure Content Delivery Network (CDN)
+
+## Azure application gateway WAF
 * About [Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
    * The basic Application Gateway is a load balancer. It uses application layer load balancing (basing routing decisions on HTTP request properties), for example routing all requests for /images to a server pool for images, and /videos to a server pool for videos. 
 * The Application Gateway have different tiers:
@@ -13,9 +27,7 @@
       * Kubernetes Service ingress controller
    1. WAF
    1. WAF V2
-* Web Application Firewall provides protection against SQL injection, XSS, and many other exploits
 * WAF on Application Gateway is based on [OWASP Core Rule Set (CRS)](https://owasp.org/www-project-modsecurity-core-rule-set/)
-* Protects only HTTP-based resources (hence the name: *Web Application* Firewall)
 * WAF modes:
    * Detection mode (log only)
    * Prevension mode (block requests). Attackers receive a 403 Unauthorized Access, and the request is logged
