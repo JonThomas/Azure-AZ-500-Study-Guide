@@ -4,9 +4,11 @@
 
 * Allows resource owner to set permissions to all members of the group.
 * A group is a security boundary
-* Groups can be configured to define membership based on rules (job title; department; ...): "Dynamic group membership". 
 * Group owners can manage their own groups, allowing for distributed ownership: Self service group management.
 * Security groups can have licenses (for example Office licenses) assigned to them, which gives members access to the applications: "Automatic licensing"
+
+## Dynamic group membership
+* Groups can be configured to define membership based on properties on the user, or rules (job title; department; ...)
 
 ## [Group types](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal#group-and-membership-types)
 * Security Group: Manages access to shared resources. A security group can have users, devices, groups and service principals as its members.
