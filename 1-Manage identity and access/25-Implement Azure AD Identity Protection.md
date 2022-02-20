@@ -1,6 +1,6 @@
-# Configure Azure AD Identity Protection
+# Implement Azure AD Identity Protection
 
-[Configure Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/)
+[Implement Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/)
 
 Keyword: RISK!
 
