@@ -7,7 +7,7 @@
 ## Implement advanced network security
 
 * [Secure the connectivity of virtual networks (VPN authentication, Express Route encryption)](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md)
-* [Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)](11-Configure%20Network%20Security%20Groups%20(NSGs)%20and%20Application%20Security%20Groups%20(ASGs).md)
+* [Secure the connectivity of virtual networks](11-Secure%20the%20connectivity%20of%20virtual%20networks.md)
 * [Create and configure Azure Firewall](12-Create%20and%20configure%20Azure%20Firewall.md)
 * [Implement Azure Firewall Manager](13-Implement%20Azure%20Firewall%20Manager.md)
 * [Configure Azure Front Door service as an Application Gateway](14-Configure%20Azure%20Front%20Door%20service%20as%20an%20Application%20Gateway.md)

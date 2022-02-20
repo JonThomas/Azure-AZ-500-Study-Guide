@@ -9,8 +9,6 @@
 1. Hvilke servere kan være i samme update policy?
 1. Har tenant, subscription. Oppretter ressursgruppe. ...?
 1. Policies
-1. PIM
-   * To modes: Enabled og Assigned?
 1. Firewall
    * Kan man aksessere ressurser fra internett når regelen slipper trafikk ut?
 1. Resource Locks

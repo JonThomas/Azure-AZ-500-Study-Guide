@@ -1,13 +1,18 @@
-# Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)
+# Secure the connectivity of virtual networks
 
-[Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
+(Previously headline: "Configure Network Security Groups (NSGs) and Application Security Groups (ASGs)")
+
+Learn: [Describe Azure Network Security groups](https://docs.microsoft.com/en-us/learn/modules/describe-basic-security-capabilities-azure/2-describe-azure-network-security-groups)
+
+[Network security groups overview](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
 
 ## Network security group
 
-* A network security group is the main way of restricting unnecessary traffic, by filtering network traffic to and from Azure resources (Filtering can also be done on the [Virtual Network](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md) level)
-* A network security group is always associated with a subnet or a network interface
+* A network security group is the main way of restricting unnecessary traffic within a subnet in Azure, by filtering network traffic to and from Azure resources (Filtering can also be done on [Hybrid Networks](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md))
+* A network security group is always associated with one or more subnets or one or more network interfaces
 * A network security group contains security rules, describing allowed and denied communication to and from network interfaces and subnets.
 * Security rules have the following properties:
+   * Name
    * Priority - between 100 and 4096
    * Protocol - TCP, UDP, ICMP, ESP, AH, or Any
    * Source and Destination - Any; an individual IP address; CIDR block (10.0.0.0/24, for example); service tag; or application security group
