@@ -15,7 +15,7 @@
 * [Configure Azure Bastion](16-Configure%20Azure%20Bastion.md)
 * [Configure a firewall on a storage account, Azure SQL, KeyVault, or App Service](17-Configure%20a%20firewall%20on%20a%20storage%20account,%20Azure%20SQL,%20KeyVault,%20or%20App%20Service.md)
 * [Implement Service Endpoints](18-Implement%20Service%20Endpoints.md)
-* [Implement DDoS protection](19-Implement%20DDoS%20protection.md)
+* [Implement Azure DDoS Protection](19-Implement%20DDoS%20protection.md)
 
 ## Configure adanced security for compute
 

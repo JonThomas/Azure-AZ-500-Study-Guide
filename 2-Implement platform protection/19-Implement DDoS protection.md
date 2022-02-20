@@ -1,6 +1,17 @@
-# Implement DDoS protection
+# Implement Azure DDoS Protection
 
-[Implement DDoS protection](https://docs.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)
+[Implement Azure DDoS Protection](https://docs.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)
+
+Learn: [Describe Azure DDoS protection](https://docs.microsoft.com/en-us/learn/modules/describe-basic-security-capabilities-azure/3-describe-azure-ddos-protection)
+
+## About DDoS
+
+* Three frequent types of attack:
+   * Volumetric: Sending large volumes of seemingly legitimate traffic. Measured in bits per second
+   * Protocol: Sending large volumes of protocol requests. Measured in packets per second
+   * Resource (application) layer: Targets web application packets
+* Azure DDoS protection tries to identify DDoS attacks, and will block traffic from the attacker.
+* Azure can scale computing needs to meet demand during an attack, and at the same time ensure that the network load only reflects actual customer usage
 
 ## DDoS Basic
 
@@ -11,11 +22,12 @@
 
 ## DDoS Standard
 
-* DDoS Standard is designed for services deployed in a VNet.
+* DDoS Standard is designed for services deployed to Azure VNet resources.
    * For other services, DDoS Basic applies ??
 * Can be enabled on a VNet, and requires no application or resource changes.
 * DDoS Standard provides better logging, alerting and telemetry
-   * Uses adaptive tuning on the applications network traffic patterns to detect threats
+   * Uses adaptive tuning and machine learning on the applications network traffic patterns to detect threats
+* Policies are applied to public IP addresses
 * DDoS Standard requires "network contributor" role to set up
 
 ## Features
