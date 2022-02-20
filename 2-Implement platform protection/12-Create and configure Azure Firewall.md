@@ -4,12 +4,17 @@
 
 [Azure Firewall Features](https://docs.microsoft.com/en-us/azure/firewall/features)
 
-* An Azure Firewall protects resources in a Virtual Network (VNet).
+Learn: [Describe what is Azure Firewall](https://docs.microsoft.com/en-us/learn/modules/describe-basic-security-capabilities-azure/4-describe-what-azure-firewall)
+
+* An Azure Firewall protects resources in an Azure Virtual Network (VNet).
    * Each virtual network can have a firewall enabled
    * A subnet called AzureFirewallSubnet is required in the VNet, consisting of at least 64 addresses (10.0.0.0/26, or smaller)
+* It's recommended to deploy Azure Firewall on a central vNet in Azure, in front of all other virtual and on-prem networks, so that configuration can be done centrally, across different subscriptions
 * Azure Firewall uses a static public IP address for your virtual network resources allowing outside firewalls to identify traffic originating from your virtual network
    * At least one (and up to 250) public IP addresses must be configured on the firewall
 * Azure Firewall provides most of the functionality you'd expect in traditional firewalls. It also leverages Microsoft threat intelligence to identify malicious IP addresses
+   * Can span multiple availablilty zones
+   * Translates public IP addresses from the internet to private IP addresses in Azure, and vice versa
 * Azure Firewall Premium also includes TLS-inspection and IDPS (Intrusion Detection and Protection System)
 * Firewall rules
    * Application rules: Allows the subnet to access a fully qualified domain name (FQDN)

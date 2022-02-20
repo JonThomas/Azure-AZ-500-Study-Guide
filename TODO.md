@@ -11,6 +11,7 @@
 1. Policies
 1. Firewall
    * Kan man aksessere ressurser fra internett når regelen slipper trafikk ut?
+   * hvordan å stoppe/ tillate http requests?
 1. Resource Locks
 1. Storage - hvordan å nå Files, Tables, Shares (access methods)
    * SAS
@@ -23,7 +24,6 @@
    1. Del shared key? Eller et filshare?
 1. Passord policies
    * Godkjente passord
-   * Dersom «contosoas» er ulovlig, kan «123contoso@s» benyttes?
+   * Dersom «contosoas» er ulovlig, kan «123contoso@s» benyttes? JA
 1. Hvem kan endre subscription - only billing administrator
 1. Kan man pinge en annen maskin i samme subnet? Forskjellige subnet? Samme VLan? Forskjellige VLan?
-1. Firewall - hvordan å stoppe/ tillate http requests
