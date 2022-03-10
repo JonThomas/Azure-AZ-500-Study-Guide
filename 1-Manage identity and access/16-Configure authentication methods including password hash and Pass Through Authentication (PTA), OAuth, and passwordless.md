@@ -29,7 +29,7 @@
 * Used to delegate authentication to on-site AD
    * On site password policies and sign-in hours are enforced using this authentication method
 * Supports Account Disabling, Account lockout, Account expiration, Password expiration and Logon hours
-* Requires more hardware than Password hash synchronization
+* Requires more hardware than Password hash synchronization, and uses a software agent on one or more on-premises servers.
 
 ### Password hash synchronization (PHS)
 [Password hash synchronization](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-phs)

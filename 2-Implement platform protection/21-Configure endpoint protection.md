@@ -22,9 +22,10 @@
 
 * Microsoft Defender for Endpoint is an enterprise endpoint security platform to prevent, detect, investigate and respond to advanced threats
 * Its a core part of Microsoft Defender, together with Defender for Office 365, Cloud App Security and Defender for Identity
-* Operates within a tenant
-   * Data is only available through Azure AD.
-   * Sandbox for uploading files
+> ### Is this still correct?
+> * Operates within a tenant
+>    * Data is only available through Azure AD.
+>    * Sandbox for uploading files
 * Accessible through Microsoft Defender Security Center
 
 ### 7 pillars:

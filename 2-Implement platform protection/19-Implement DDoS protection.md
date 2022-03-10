@@ -16,17 +16,16 @@ Learn: [Describe Azure DDoS protection](https://docs.microsoft.com/en-us/learn/m
 ## DDoS Basic
 
 * Every property in Azure is protected by DDoS Basic for free.
-   * Handled on cloud level by monitoring and real-time mitigation
+* Works on the Azure region level by monitoring and real-time mitigation
 * Includes Azure CDN
 * There is nothing to set up or configure with DDoS Basic
 
 ## DDoS Standard
 
-* DDoS Standard is designed for services deployed to Azure VNet resources.
-   * For other services, DDoS Basic applies ??
+* DDoS Standard is designed for applications and resources deployed to Azure VNet resources.
 * Can be enabled on a VNet, and requires no application or resource changes.
+* Uses adaptive tuning and machine learning on the applications network traffic patterns to detect threats
 * DDoS Standard provides better logging, alerting and telemetry
-   * Uses adaptive tuning and machine learning on the applications network traffic patterns to detect threats
 * Policies are applied to public IP addresses
 * DDoS Standard requires "network contributor" role to set up
 

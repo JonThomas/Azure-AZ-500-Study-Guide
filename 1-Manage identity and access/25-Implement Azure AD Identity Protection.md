@@ -10,7 +10,7 @@ Keyword: RISK!
    * User risk: The probability that a given identity or account is compromised.
    * Sign-in risk: The probability that a given authentication request isn't authorized by the identity owner.
 * Three risk levels: low, medium, and high.
-* Risk detection is only generated with correct credentials are used
+* Risk detection is only generated when correct credentials are used
 * Three reports are provided
    * Risky users
    * Risky sign-ins
