@@ -8,7 +8,7 @@ Learn: [Describe Azure Network Security groups](https://docs.microsoft.com/en-us
 
 ## Network security group
 
-* A network security group is the main way of restricting unnecessary traffic within a subnet in Azure, by filtering network traffic to and from Azure resources (Filtering can also be done on [Hybrid Networks](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md))
+* A network security group is the main way of restricting unnecessary traffic to and from Azure resources within a virtual network. It acts as a firewall. NSGs can be associated with subnets or individual network interfaces. NSGs filter network traffic to and from Azure resources (Filtering can also be done on [Hybrid Networks](10-Secure%20the%20connectivity%20of%20virtual%20networks%20(VPN%20authentication,%20Express%20Route%20encryption).md))
 * A network security group is always associated with one or more subnets or one or more network interfaces
 * A network security group contains security rules, describing allowed and denied communication to and from network interfaces and subnets.
 * Security rules have the following properties:
